@@ -1,0 +1,265 @@
+
+/*******************************
+             Page
+*******************************/
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 278px;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.33;
+  color: rgba(0, 0, 0, 0.8);
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.33em;
+  margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
+  margin: calc(2rem -  0.165em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.714rem;
+}
+h3 {
+  font-size: 1.28rem;
+}
+h4 {
+  font-size: 1.071rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.33;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #009fda;
+  text-decoration: none;
+}
+a:hover {
+  color: #00b2f3;
+}
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+::-webkit-selection {
+  background-color: rgba(255, 255, 160, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+::-moz-selection {
+  background-color: rgba(255, 255, 160, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+::selection {
+  background-color: rgba(255, 255, 160, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*******************************
+          Responsive images
+*******************************/
+
+.resp-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*******************************
+          Main page formatting
+*******************************/
+
+.main-container {
+    margin: 2em auto 0 auto;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.wifi-map {
+    margin: 0.5em auto 0 auto;
+    width: 95%;
+    clear: both;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    background-color: #1488c8;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 5px solid #f7e041;
+}
+.map {
+    width: 100%;
+}
+.hotspots-listing {
+    margin: 2em auto 0 auto;
+    width: 95%;
+    clear: both;
+    overflow: hidden;
+}
+.add-hotspot {
+    margin: 3em auto 0 auto;
+    width: 600px;
+    clear: both;
+    overflow: hidden;
+    border: 3px solid #1488c8;
+    border-radius: 3px;
+    padding: 2em;
+
+}
+.submit {
+    background-color: #1488c8;
+    margin-top: 0.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+}
+.form {
+    width: 570px;
+}
+
+/*******************************
+          Styling of the table
+*******************************/
+
+.hotspots-listing .table {
+    border-radius: 0;
+}
+.hotspots-listing .table thead th {
+    background-color: #1488c8;
+    color: white;
+}
+.hotspots-listing .table thead th:first-child {
+    border-radius: 0;
+}
+.hotspots-listing .table thead th:last-child {
+    border-radius: 0;
+}
+
+/*******************************
+          Styling of the form
+*******************************/
+
+#form_area {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 1em;
+}
+
+/*******************************
+          Styling of the footer
+*******************************/
+
+footer {
+    background-color: #1F518B;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 3em;
+}
+footer a {
+    color: #e2413e;
+}
+footer a:hover {
+    color:#E91222;
+    text-decoration: underline;
+}
+
+/*******************************
+ Styling of the menu
+*******************************/
+
+/*Layout of the menu */
+.menu {
+    margin: 2em auto 3em auto;
+    width: 600px;
+    clear: both;
+    overflow: hidden;
+}
+
+/*Strip the ul of padding and list styling*/
+.menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+.menu li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+.menu li a {
+	display:block;
+	width:200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: #1F518B;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+.menu li:hover a {
+	background: #e2413e;
+}
+
+/*Prevent text wrapping*/
+.menu li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}

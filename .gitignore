@@ -1,0 +1,14 @@
+*~
+.DS_store
+._*
+/src/main/resources
+!/src/main/resources/DO_NOT_REMOVE
+/bin
+/target
+/Web-ui/.generated/
+!/Web-ui/.generated/DO_NOT_REMOVE
+/Web-ui/dist/
+!/Web-ui/dist/app
+/Web-ui/dist/app/*
+!/Web-ui/dist/app/.buildignore
+!/Web-ui/dist/app/.htaccess

@@ -1,0 +1,10 @@
+{
+  "hotspot":{
+    "label":"Hotspot",
+    "fields":{
+      "name":"Nom",
+      "latitude":"Latitude",
+      "longitude":"Longitude"
+    }
+  }
+}

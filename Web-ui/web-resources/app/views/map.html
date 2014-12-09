@@ -1,0 +1,16 @@
+<div class="wifi-map">
+    <h1>Paris Wifi Hotspots</h1>
+    <div id="map" class="map" ng-click="mapClicked($event)" ng-right-click></div>
+    <div id="form_area">
+        <div id="search_form" class="ui form">
+            <form class="inline field" name="search" ng-submit="submit($event)">
+                <label for="">Number of hotspots displayed</label>
+                <input type="text" id="count" ng-model="currentCount" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Source: Dataset imported from <a href="http://opendata.paris.fr/">ParisData</a>.
+</footer>
