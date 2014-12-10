@@ -10,9 +10,14 @@ To have the app running:
 - Start the HFactory server
 - Create the tables through the administration page of the server
 - Start the Hotspot application
-- Use feed.sh with the json you want to feed:
+- Use feed.sh from the Hotspot folder to feed the Paris Hotspot data:
 ```
-feed.sh parisHotspot.json
+./feed.sh
+```
+
+You can specify another data file and a different host and port with the following command line:
+```
+./feed.sh json_file http://host:port
 ```
 
 See the [documentation of the HFactory Studio](http://hfactory.io/doc.html) for more information.

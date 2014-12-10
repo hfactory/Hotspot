@@ -1,6 +1,7 @@
 *~
 .DS_store
 ._*
+.rest_*
 /src/main/resources
 !/src/main/resources/DO_NOT_REMOVE
 /bin
