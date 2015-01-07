@@ -111,7 +111,36 @@ angular.module('${app}')
                 zoom: 13
             })
         });
+          
+        var info = angular.element(document.querySelector('#info'));
+        info.title = "BLAH"
+        info.tooltip({
+            animation: false,
+            trigger: 'manual'
+        })
         
+        var displayFeatureInfo = function(pixel) {
+            info.css({
+              left: pixel[0] + 'px',
+              top: (pixel[1] - 15) + 'px'
+            });
+            var feature = map.forEachFeatureAtPixel(pixel, function (feature, layer) {
+                return feature;
+            });
+            if (feature) {
+                info.tooltip('hide')
+                    .attr('data-original-title', feature.get('name'))
+                    .tooltip('fixTitle')
+                    .tooltip('show');
+            } else {
+                info.tooltip('hide');
+            }
+        }
+        
+        $(map.getViewport()).on('mousemove', function (evt) {
+            displayFeatureInfo(map.getEventPixel(evt.originalEvent));
+        });
+              
         var positionFeature = null;
         
         function updatePosition(lng, lat) {
@@ -125,7 +154,7 @@ angular.module('${app}')
             positionFeature.setStyle(positionStyle);
             positionSource.addFeature(positionFeature);
         }
-        
+                
         $scope.mapClicked = function(ev) {
             var loc = map.getEventCoordinate(ev),
                 lng_lat = ol.proj.transform(loc, 'EPSG:3857', 'EPSG:4326');
