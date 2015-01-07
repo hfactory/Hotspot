@@ -14,35 +14,13 @@
 
     <!-- basic styles -->
 
-    <link href="styles/form.min.css" rel="stylesheet" />
-    <link href="styles/table.min.css" rel="stylesheet" />
-    <link href="styles/main.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/semantic.min.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/paris-style.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="http://openlayers.org/en/v3.0.0/css/ol.css" type="text/css">
     <script src="http://openlayers.org/en/v3.0.0/build/ol.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <style>
-      #map {
-        position: relative;
-      }
-      #info {
-        position: absolute;
-        height: 1px;
-        width: 1px;
-        z-index: 100;
-      }
-      .tooltip.in {
-        opacity: 1;
-        filter: alpha(opacity=100);
-      }
-      .tooltip.top .tooltip-arrow {
-        border-top-color: white;
-      }
-      .tooltip-inner {
-        border: 2px solid white;
-      }
-    </style>
   </head>
 
   <body ng-app="${app}">
@@ -55,18 +33,24 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <div class="menu">
-      <ul>
-        <li>
-          <a ui-sref="hotspot" >Hotspots listing</a></li>
-        <li>
-          <a ui-sref="map" >Hotspots map</a>
-        </li>
-        <li>
-          <a ui-sref="hotspot_add" >Add a hotspot</a>
-        </li>
-      </ul>
-    </div><!-- menu -->
+    <div id="main-menu-container">
+        <div id="main-menu" class="ui pointing menu three item">
+            <a ui-sref="hotspot" class="item">
+                <i class="list icon"></i> List view
+            </a>
+            <a ui-sref="map" class="item">
+                <i class="world icon"></i> Map view
+            </a>
+            <a ui-sref="hotspot_add" class="item">
+                <i class="write icon"></i> Add entry
+            </a>
+        </div>
+        <div id="menu-button" class="ui icon button">
+            <i class="content icon"></i>
+            <span class="text">Menu</span>
+        </div>
+    </div>
+
 
     <div class="main-container">
           <!-- PAGE CONTENT BEGINS -->
@@ -106,5 +90,7 @@
     <script src="scripts/data/${entity}-service.js"></script>
     </#list>
 
+    <script src="js/semantic.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
