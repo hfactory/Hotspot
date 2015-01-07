@@ -1,0 +1,71 @@
+/*******************************
+             Menu
+*******************************/
+
+.ui.item.menu {
+    color: #fff;
+	background: #1F518B;
+}
+.ui.item.menu a {
+    color: #fff;
+}
+.ui.item.menu a:hover {
+    color: #fff;
+    background: #e2413e;
+}
+/*******************************
+             Main container & footer
+*******************************/
+
+footer {
+    background-color: #1F518B;
+}
+footer a {
+    color: #e2413e;
+}
+footer a:hover {
+    color:#E91222;
+}
+
+/*******************************
+          Map view
+*******************************/
+
+
+h1 {
+    background-color: #1488c8;
+    border-bottom: 5px solid #f7e041;
+}
+#form_area {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 1em;
+}
+
+/*******************************
+          Add entry view
+*******************************/
+
+.add-entry .ui.form {
+    border: 1px solid #1488c8;
+}
+
+/*******************************
+          Menu button
+*******************************/
+
+#menu-button {
+    background-color: #e2413e;
+    color: #fff;
+}
+
+/*******************************
+          Sidebar
+*******************************/
+
+.ui.vertical.menu .item {
+    color: #1488c8;
+}
+.ui.vertical.menu .item:hover {
+    background-color: #f7e041;
+}
