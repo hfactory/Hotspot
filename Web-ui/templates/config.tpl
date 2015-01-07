@@ -105,7 +105,7 @@ angular.module('${app}')
         
         var map = new ol.Map({
             target: 'map',
-            layers: [ planLayer, hotspotLayer, positionLayer ],
+            layers: [ planLayer, positionLayer, hotspotLayer ],
             view: new ol.View({
                 center: ol.proj.transform([parisLng, parisLat], 'EPSG:4326', 'EPSG:3857'),
                 zoom: 13
