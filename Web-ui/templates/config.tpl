@@ -113,7 +113,6 @@ angular.module('${app}')
         });
           
         var info = angular.element(document.querySelector('#info'));
-        info.title = "BLAH"
         info.tooltip({
             animation: false,
             trigger: 'manual'
