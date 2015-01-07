@@ -20,7 +20,7 @@ import ch.hsr.geohash.GeoHash
 import com.ubeeko.hfactory.app.HApp
 import com.ubeeko.hfactory.entities._
 
-import com.ubeeko.hotspot.data.Hotspot
+import com.ubeeko.hotspot.data.{Dataset, Hotspot}
 import com.ubeeko.hfactory.app.annotations.HAppController
 import com.ubeeko.htalk.hbase.ToBytes
 
@@ -32,6 +32,7 @@ import java.awt.geom.Point2D
 import Hotspot._
 
 class HotspotRegistry extends HEntityRegistry {
+  registerEntity[Dataset]
   registerEntity[Hotspot]
 }
 

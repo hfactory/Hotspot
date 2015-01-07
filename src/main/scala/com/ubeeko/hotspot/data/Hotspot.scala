@@ -23,7 +23,13 @@ import com.ubeeko.conversions.{ToString, FromString}
 import com.ubeeko.htalk.hbase.{ToBytes, FromBytes}
 
 // A wifi hotspot entity.
-case class Hotspot(name: String, latitude: Double, longitude: Double) {
+case class Hotspot(
+    name     : String,
+    address  : String,
+    town     : String,
+    latitude : Double,
+    longitude: Double,
+    dataset  : String) {
   lazy val geoHash: GeoHash = Hotspot.geoHash(latitude, longitude, 12)
   def rowKey: GeoHash = geoHash
   override def toString = s"$name @ ($latitude, $longitude)"
