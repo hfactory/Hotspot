@@ -1,31 +1,52 @@
-angular.module('${app}').factory('${entity}Service', function($rootScope, $log, $q, Restangular, i18nService) {
+angular.module('${app}').factory('${entity}Service', function($rootScope, $log, $q,
+<#if entity == "hotspot">
+ datasetService,
+</#if> Restangular, i18nService) {
 
   var service = {};
-  service.data = {};
+  service.data = _([]);
   var initialization = $q.defer();
 
+<#if entity == "hotspot">
   service.init = function() {
       $log.debug('Init ${entity}Service');
-      
-      var Rest = Restangular.all('${entity}');
+      // Do not use whenReady for hotspot since the loading is not done during initialization
+      initialization.resolve();
+  };
 
-      Rest.getList().then(function(responses) {
+  service.initData = function(datasetName) {
+<#else>
+  service.init = function() {
+      $log.debug('Init ${entity}Service');
+</#if>
       
+      var validated = _([]);
+      // Return the promise for chaining actions after the loading
+      var promise;
+<#if entity == "hotspot">
+      if(datasetName) {
+        var Rest = Restangular.all('filteredHotspot?datasetName='+datasetName);
+<#else>
+      var Rest = Restangular.all('${entity}');
+</#if>
+
+      promise = Rest.getList().then(function(responses) {
         $log.debug(responses.length+" ${entity} loaded");
 
-        var validated = _([]);
         _.each(responses, function (response) {
            if(service.validate(response)) {
             validated.push(response);
            }
-        })
-        
+        });
         service.data = validated;
         $log.debug('${entity}Service initialized');
         initialization.resolve();
+        return validated.value();
       });
-
-      
+<#if entity == "hotspot">
+    }
+</#if>
+    return promise;
   };
 
   service.whenReady = function(f) {
@@ -33,10 +54,6 @@ angular.module('${app}').factory('${entity}Service', function($rootScope, $log, 
       console.error("Error initializing ${entity}Service");
     });
   }
-
-  service.start = function() {
-      $log.debug('${entity}Service started');
-  };
 
   service.filter = function(f) {
       return service.data.filter(f).valueOf();
@@ -51,7 +68,7 @@ angular.module('${app}').factory('${entity}Service', function($rootScope, $log, 
         $log.error("Invalid entry "+value);
         return false;
       }
-      
+
   };
 
   service.groupBy = function() {
@@ -64,8 +81,6 @@ angular.module('${app}').factory('${entity}Service', function($rootScope, $log, 
       var result = Restangular.all('${entity}').post(entity).then(
       function() {
         control.message = "";
-        // You can remove this line if you do not want a full reload of the entities from HBase
-        service.init();
         // Reset successfully added entity
         entity = {};
         control.message = i18nService.entity("${entity}") + " saved";
@@ -83,5 +98,8 @@ angular.module('${app}').factory('${entity}Service', function($rootScope, $log, 
 
 angular.module('${app}')
   .controller('${entity}Ctrl', function ($scope, ${entity}Service) {
-    $scope.data = ${entity}Service.data.value();
+    $scope.data = [];
+    ${entity}Service.whenReady(function() {
+      $scope.data = ${entity}Service.data.value();
+    });
   });

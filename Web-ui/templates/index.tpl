@@ -34,31 +34,12 @@
     <![endif]-->
 
     <div id="main-menu-container">
-        <div id="main-menu" class="ui pointing menu three item">
-            <a ui-sref="hotspot" class="item">
-                <i class="list icon"></i> List view
-            </a>
-            <a ui-sref="map" class="item">
-                <i class="world icon"></i> Map view
-            </a>
-            <a ui-sref="hotspot_add" class="item">
-                <i class="write icon"></i> Add entry
-            </a>
-        </div>
         <div id="menu-button" class="ui icon button">
             <i class="content icon"></i>
             <span class="text">Menu</span>
         </div>
     </div>
-
-
-    <div class="main-container">
-          <!-- PAGE CONTENT BEGINS -->
-
-          <div ui-view></div>
-
-          <!-- PAGE CONTENT ENDS -->
-    </div><!-- /.main-container -->
+    <div ui-view></div>
 
     <!-- basic scripts -->
 

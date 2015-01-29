@@ -39,12 +39,20 @@ class HotspotRegistry extends HEntityRegistry {
 class HotspotApp extends HApp {
   val hotspotEntity = entityRegistry.getEntity[Hotspot].get
 
+  /**
+   * Get the hotspots from a data set
+   */
+  def hotspots(datasetName: String): Iterable[Hotspot] = {
+    import com.ubeeko.htalk.criteria._
+    val hotspotRegistry = entityRegistry.getEntity[Hotspot].get
+    ("hotspot" get rows columnValue("dataset", datasetName)) ~ hotspotRegistry.io.conv.fromResult
+  }
   // XXX Rather than count, specify radius (in kms) ? see
   // <http://munro-bagging.googlecode.com/svn/tags/MunroBagging_v4/Data%20Generator/src/ch/hsr/geohash/queries/GeoHashCircleQuery.java>
   // Use WGS84Point in haversine formula?
 
   @HAppController
-  def getClosest(lat: Double, long: Double, count: Int): List[Hotspot] = {
+  def getClosest(datasetName: String, lat: Double, long: Double, count: Int): List[Hotspot] = {
     val target = Hotspot.geoHash(lat, long, 6) // 6 chars only as we want a prefix, not a full hash (12 chars).
 
     val origin = new Point2D.Double(target.getPoint.getLatitude, target.getPoint.getLongitude)
@@ -52,7 +60,7 @@ class HotspotApp extends HApp {
 
     def takeClosest(prefix: GeoHash): List[Hotspot] = {
       val prefixBytes = implicitly[ToBytes[GeoHash]].apply(prefix)
-      val locs = hotspotEntity.io.list()
+      val locs = hotspots(datasetName)
       val candidates = locs.toList.filter { c =>
         val rkBytes = implicitly[ToBytes[GeoHash]].apply(c.rowKey)
         rkBytes.startsWith(prefixBytes)
@@ -64,5 +72,17 @@ class HotspotApp extends HApp {
     val results = takeClosest(target) ++ (target.getAdjacent.toList flatMap takeClosest)
 
     results.sortBy(distanceToOrigin).take(count)
+  }
+
+  /**
+   * Return a JSON with the rowkey and the fields to have the same behavior
+   * than retrieving the whole list
+   */ 
+  case class HotspotJSON(rowkey: GeoHash, fields: Hotspot)
+  @HAppController
+  def filteredHotspot(datasetName: String): Iterable[HotspotJSON] = {
+    hotspots(datasetName).map { hotspot =>
+      HotspotJSON(hotspot.rowKey, hotspot)
+    }
   }
 }

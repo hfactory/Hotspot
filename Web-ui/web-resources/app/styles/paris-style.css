@@ -13,6 +13,14 @@
     color: #fff;
     background: #e2413e;
 }
+.ui.importing.menu span {
+  font-family:FontAwesome;font-size:1.3em;content:'\f110';
+  -webkit-animation:spin 2s infinite linear;
+  -moz-animation:spin 2s infinite linear;
+  -o-animation:spin 2s infinite linear;
+  animation:spin 2s infinite linear;
+  color:#813a8a
+}
 /*******************************
              Main container & footer
 *******************************/

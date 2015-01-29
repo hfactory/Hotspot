@@ -23,10 +23,6 @@ angular.module('${app}').factory('entitiesService', function($rootScope, $log, R
       $log.debug('entitiesService initialized');
   };
 
-  service.start = function() {
-      $log.debug('entitiesService started');
-  };
-
   return service;
 
 })
