@@ -44,8 +44,7 @@ class HotspotApp extends HApp {
    */
   def hotspots(datasetName: String): Iterable[Hotspot] = {
     import com.ubeeko.htalk.criteria._
-    val hotspotRegistry = entityRegistry.getEntity[Hotspot].get
-    ("hotspot" get rows columnValue("dataset", datasetName)) ~ hotspotRegistry.io.conv.fromResult
+    ("hotspot" get rows columnValue("dataset", datasetName)) ~ hotspotEntity.io.conv.fromResult
   }
   // XXX Rather than count, specify radius (in kms) ? see
   // <http://munro-bagging.googlecode.com/svn/tags/MunroBagging_v4/Data%20Generator/src/ch/hsr/geohash/queries/GeoHashCircleQuery.java>
