@@ -1,0 +1,183 @@
+/*******************************
+             General
+*******************************/
+
+html {
+    font-size: 16px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/*Override of location of Semantic UI standard set of icons*/
+@font-face {
+  font-family: 'Icons';
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot?#iefix") format('embedded-opentype'), url("../fonts/icons.svg#icons") format('svg'), url("../fonts/icons.woff") format('woff'), url("../fonts/icons.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+}
+/*******************************
+             Top menu bar
+*******************************/
+
+/*Centering of the meny*/
+#main-menu-container {
+    margin-top: 0em auto;
+}
+#main-menu {
+    margin: 0rem auto;
+    width: 65%;
+}
+/*Thicker top menu bar*/
+.ui.menu .item {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+/*Responsive version of the menu*/
+@media all and (max-width: 650px) {
+    #main-menu {
+        width: 85%;
+    }
+}
+@media all and (max-width: 500px) {
+    #main-menu {
+        width: 100%;
+    }
+}
+/*No radius on top corners*/
+.ui.menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/*******************************
+             Sidebar
+*******************************/
+
+/*Positioning and animation of the menu button*/
+#menu-button {
+    position: fixed;
+    top: 6em;
+    width: 55px;
+    height: auto;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 1.2rem;
+    overflow: hidden;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-transition: 0.3s width ease, 0.5s transform ease;
+    -moz-transition: 0.3s width ease, 0.5s transform ease;
+    -o-transition: 0.3s width ease, 0.5s transform ease;
+    -ms-transition: 0.3s width ease, 0.5s transform ease;
+    transition: 0.3s width ease, 0.5s transform ease;
+}
+
+/*Menu text*/
+#menu-button .text {
+    position: absolute;
+    white-space: nowrap;
+    top: auto;
+    left: 2.4em;
+    opacity: 0;
+    -webkit-transition: 0.3s opacity 0.3s;
+    -moz-transition: 0.3s opacity 0.3s;
+    -o-transition: 0.3s opacity 0.3s;
+    -ms-transition: 0.3s opacity 0.3s;
+    transition: 0.3s opacity 0.3s;
+}
+/*Hover size*/
+#menu-button:hover {
+  width: 110px;
+}
+/*Menu text visible on hover*/
+#menu-button:hover .text {
+  opacity: 1;
+}
+/*Width of the sidebar*/
+.ui.left.sidebar {
+    width: 12rem;
+}
+/*Responsive version of the menu button and of the sidebar*/
+@media all and (max-width: 650px) {
+    .ui.left.sidebar {
+    width: 10rem;
+}
+    .ui.sidebar.menu .item {
+        font-size: 1rem;
+    }
+}
+
+/*******************************
+             Main container & footer
+*******************************/
+
+.main-container {
+    margin: 1em auto 0 auto;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    background-color: #575757;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+        border-radius: 3px;
+}
+.content-container {
+    margin: 0.5em auto 0 auto;
+    width: 85%;
+    clear: both;
+    overflow: hidden;
+}
+footer {
+    background-color: #575757;
+    color:white;
+    padding: 1em;
+    font-size: 0.8em;
+    margin-top: 3em;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*******************************
+          Map view
+*******************************/
+
+#form_area {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 1em;
+}
+
+/*******************************
+          Add entry view
+*******************************/
+
+.add-entry {
+    margin: 3em auto 0 auto;
+}
+.ui.submit {
+    margin-top: 0.5em;
+}
+.ui.segment {
+    box-shadow: none;
+}
+.add-entry .ui.form {
+    width: 570px;
+    margin: 0 auto;
+    border: 1px solid #d0d0d0;
+    padding: 2em;
+}
+
+

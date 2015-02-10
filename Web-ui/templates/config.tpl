@@ -9,8 +9,22 @@ angular.module('${app}')
       name: 'map',
       url: "/map",
       templateUrl: "views/map.html",
-      controller: function($scope, $http, entitiesService, hotspotService) {
-      
+      controller: function($scope, $http, entitiesService, datasetService, hotspotService) {
+        $scope.datasetName = "Load data from Menu";
+        $scope.closests = null;
+        $scope.hotspotRef = entitiesService.data['hotspot'];
+        
+      	$scope.loadData = function(set) {
+        hotspotSource.clear();
+      	  if (set) {
+      	    $scope.datasetName = set;
+            var promise = hotspotService.initData(set);
+            promise.then(function(data) {
+              addAllHotspots(data);
+            });
+      	  }
+      	};      
+
         var orange = '#ffcc33',
             violet = '#c900ff',
             red    = '#ff0000';
@@ -53,29 +67,30 @@ angular.module('${app}')
             hotspotSource.addFeature(h);
         }
         
-        var getAllHotspots = function() {
-            hotspotService.whenReady(function() {
-                var data = hotspotService.data.value();
-                _.forEach(data, function(item) {
-                    addHotspot(item.fields);
-                });
+        var addAllHotspots = function(data) {
+            $scope.closests = null;
+            _.forEach(data, function(item) {
+                addHotspot(item.fields);
             });
         }
 
-        function getClosest(lng, lat, count) {
-            var url = "getClosest?lat=" + lat + "&long=" + lng + "&count=" + count;
+        function getClosest(dataset, lng, lat, count) {
+            // Variable used for displaying the list of closests points
+            $scope.closests = {"points": [], "fieldNames": ["name", "address", "town"]};
+            var url = "getClosest?datasetName=" + dataset + "&lat=" + lat + "&long=" + lng + "&count=" + count;
             $http.get(url).success(
               function(data) {
                 hotspotSource.clear();
                 _.forEach(data, function (hotspot) {
                     addHotspot(hotspot);
+                    $scope.closests.points.push(hotspot);
                 });
               }
             );
         }
         
         var updateClosest = function() {
-            getClosest(currentLng, currentLat, $scope.currentCount);
+            getClosest($scope.datasetName, currentLng, currentLat, $scope.currentCount);
         }
         
         var hotspotSource = new ol.source.Vector();
@@ -111,7 +126,35 @@ angular.module('${app}')
                 zoom: 13
             })
         });
+          
+        var info = angular.element(document.querySelector('#info'));
+        info.tooltip({
+            animation: false,
+            trigger: 'manual'
+        })
         
+        var displayFeatureInfo = function(pixel) {
+            info.css({
+              left: pixel[0] + 'px',
+              top: (pixel[1] - 15) + 'px'
+            });
+            var feature = map.forEachFeatureAtPixel(pixel, function (feature, layer) {
+                return feature;
+            });
+            if (feature) {
+                info.tooltip('hide')
+                    .attr('data-original-title', feature.get('name'))
+                    .tooltip('fixTitle')
+                    .tooltip('show');
+            } else {
+                info.tooltip('hide');
+            }
+        }
+        
+        $(map.getViewport()).on('mousemove', function (evt) {
+            displayFeatureInfo(map.getEventPixel(evt.originalEvent));
+        });
+              
         var positionFeature = null;
         
         function updatePosition(lng, lat) {
@@ -125,14 +168,14 @@ angular.module('${app}')
             positionFeature.setStyle(positionStyle);
             positionSource.addFeature(positionFeature);
         }
-        
+                
         $scope.mapClicked = function(ev) {
             var loc = map.getEventCoordinate(ev),
                 lng_lat = ol.proj.transform(loc, 'EPSG:3857', 'EPSG:4326');
             currentLng = lng_lat[0];
             currentLat = lng_lat[1];
             updatePosition(currentLng, currentLat);
-            getClosest(currentLng, currentLat, $scope.currentCount);
+            getClosest($scope.datasetName, currentLng, currentLat, $scope.currentCount);
         }
 
         $scope.submit = function (ev) {
@@ -145,91 +188,14 @@ angular.module('${app}')
         };
 
         updatePosition(currentLng, currentLat);
-        getAllHotspots();
+        // Put the datasets in scope when ready to display the Menu
+        datasetService.whenReady(function() {
+          $scope.datasets = datasetService.data.value();
+        });
       }
   }
   $stateProvider
     .state(map);
-  
-  <#list entities as entity> 
-  var ${entity}List = { 
-      name: '${entity}',
-      url: "/${entity}",
-      templateUrl: "views/list.html",
-      controller: function($scope, entitiesService, ${entity}Service) {
-          
-        $scope.data = ${entity}Service.data.value();
-        var ref = entitiesService.data['${entity}'];
-        $scope.reference = ref;
-
-      }
-  }
-
-  var ${entity}Add = { 
-      name: '${entity}_add',
-      url: "/${entity}/add",
-      templateUrl: "views/add.html",
-      controller: function($scope, entitiesService, ${entity}Service) {
-          
-        $scope.data = ${entity}Service.data.value();
-        var ref = entitiesService.data['${entity}'];
-        $scope.reference = ref;
-        $scope.entity = {};
-        $scope.error = { class:"text-info" };
-        $scope.add = ${entity}Service.add;
-
-      }
-  }
-
-  var ${entity}Chart = { 
-      name: '${entity}_chart',
-      url: "/${entity}/chart",
-      templateUrl: "views/chart.html",
-      controller: function($scope, entitiesService, ${entity}Service) {
-
-        
-        $scope.$watch('field', function(nv, ov) {
-          if(nv) {
-            var grouped = _.groupBy(_.map(${entity}Service.data.value(), "fields"), nv.name.toString());
-            var presentation = _.transform(grouped, function(result, value, key) {
-              result[key] = {
-                    id: key,
-                    count: _.size(value)
-                };
-            });
-            $scope.chartData = _.map(presentation, function(c) {
-              return c;
-            });
-          }
-        });
-
-        $scope.reference = entitiesService.data['${entity}'];
-
-        $scope.idFunction = function(){
-            return function(d) {
-                return d.id;
-            };
-        }
-        $scope.countFunction = function(){
-            return function(d) {
-                return d.count;
-            };
-        }
-
-        $scope.toolTipContentFunction = function(){
-            return function(key, x, y, e, graph) {
-                return  '<h3>' + key + ' has ' + y.point.count + ' items</h3>';
-            }
-        }
-    }
-  }
-
-  $stateProvider
-    .state(${entity}List)
-    .state(${entity}Chart)
-    .state(${entity}Add);
-    
- </#list>
 
 }).directive('ngRightClick', function() {
     return function(scope, element) {
@@ -244,4 +210,4 @@ angular.module('${app}')
             });
         });
     };
-});;
+});

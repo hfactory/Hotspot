@@ -4,7 +4,10 @@
     "fields":{
       "name":"Nom",
       "latitude":"Latitude",
-      "longitude":"Longitude"
+      "longitude":"Longitude",
+      "dataset":"Dataset",
+      "address":"Adresse",
+      "town":"Ville"
     }
   }
 }

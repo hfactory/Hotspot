@@ -1,296 +1,298 @@
-{"name":"Hotel de Ville (3eme etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Hotel de Ville (4e etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Allee Vivaldi","address":"13, Rue Henard","town":"PARIS","latitude":48.842049,"longitude":2.38947,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Annexe Maison des Associations Du 09eme","address":"35, Rue Victor Masse","town":"PARIS","latitude":48.881031,"longitude":2.33704,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Administrative De La Ville De Paris","address":"5, Rue De Lobau","town":"PARIS","latitude":48.856701,"longitude":2.35359,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Batignolles","address":"18, Rue Des Batignolles","town":"PARIS","latitude":48.88438,"longitude":2.3218,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Buffon","address":"15 Bis, Rue Buffon","town":"PARIS","latitude":48.84272,"longitude":2.36195,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Chateau D'Eau","address":"72, Rue Du Faubourg Saint Martin","town":"PARIS","latitude":48.871818,"longitude":2.35722,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Des Litteratures Policier","address":"48, Rue Du Cardinal Lemoine","town":"PARIS","latitude":48.846458,"longitude":2.35144,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Francois Villon","address":"81, Boulevard De La Villette","town":"PARIS","latitude":48.877258,"longitude":2.37089,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Gutenberg","address":"8, Rue De La Montagne D'Aulas","town":"PARIS","latitude":48.840271,"longitude":2.27868,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Maurice Genevoix","address":"19, Rue Tristan Tzara","town":"PARIS","latitude":48.895027,"longitude":2.364053,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Musset","address":"20, Rue De Musset","town":"PARIS","latitude":48.842023,"longitude":2.263587,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Personnel","address":"17, Boulevard Morland","town":"PARIS","latitude":48.85006,"longitude":2.3634,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Sorbier","address":"17, Rue Sorbier","town":"PARIS","latitude":48.86589,"longitude":2.39272,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Valeyre","address":"24, Rue De Rochechouart","town":"PARIS","latitude":48.877979,"longitude":2.34486,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Yourcenar","address":"41, Rue D Alleray","town":"PARIS","latitude":48.83672,"longitude":2.30365,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Carre Baudoin","address":"121, Rue De Mesnilmontant","town":"PARIS","latitude":48.869862,"longitude":2.39405,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre Animation Espace Cevennes","address":"9, Rue De La Montagne D'Aulas","town":"PARIS","latitude":48.840302,"longitude":2.27893,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Angele Mercier","address":"133, Boulevard Serurier","town":"PARIS","latitude":48.88417,"longitude":2.39462,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre Sportif Louis Lumiere","address":"30, Rue Louis Lumiere","town":"PARIS","latitude":48.85918,"longitude":2.41146,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Atlantique","address":"5, Place Des Cinq Martyrs Du Lycée Buffon","town":"PARIS","latitude":48.838791,"longitude":2.31683,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Chateau Des Rentiers","address":"Rue Du Chateau Des Rentiers","town":"PARIS","latitude":48.826317,"longitude":2.369109,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin De Reuilly","address":"1, Rue Albinoni","town":"PARIS","latitude":48.84288,"longitude":2.38845,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Jules Noel","address":"3, Avenue Maurice D'Ocagne","town":"PARIS","latitude":48.82457,"longitude":2.31402,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 14E Arrondissement","address":"2, Place Ferdinand Brunot","town":"PARIS","latitude":48.832828,"longitude":2.32674,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 1Er Arrondissement","address":"4, Place Du Louvre","town":"PARIS","latitude":48.860081,"longitude":2.34105,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison de L'Emploi Du 13eme","address":"126, Avenue D'Italie","town":"PARIS","latitude":48.82375,"longitude":2.35801,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison de L'Emploi Du 18eme","address":"164, Rue Ordener","town":"PARIS","latitude":48.893761,"longitude":2.33547,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 04eme","address":"38 , Boulevard Henry IV","town":"PARIS","latitude":48.852291,"longitude":2.36628,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 05eme","address":"7, Square Adanson","town":"PARIS","latitude":48.83942,"longitude":2.35188,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 10eme","address":"206, Quai De Valmy","town":"PARIS","latitude":48.88216,"longitude":2.36892,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 20eme","address":"1, Rue Frederick Lemaitre","town":"PARIS","latitude":48.873421,"longitude":2.391,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 06eme","address":"60, Rue Saint Andre Des Arts","town":"PARIS","latitude":48.853496,"longitude":2.339608,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 07eme","address":"93, Rue Saint Dominique","town":"PARIS","latitude":48.859638,"longitude":2.30718,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 08eme","address":"23, Rue Vernet","town":"PARIS","latitude":48.871948,"longitude":2.29813,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee D'Art Moderne","address":"11, Avenue Du President Wilson","town":"PARIS","latitude":48.86478,"longitude":2.29557,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee Du Petit Palais","address":"1, Avenue Dutuit","town":"PARIS","latitude":48.866083,"longitude":2.31564,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee Memorial Marechal Leclerc","address":"23, Allee De La Deuxieme Division Blindee","town":"PARIS","latitude":48.840485,"longitude":2.32021,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Belleville","address":"27, Rue Piat","town":"PARIS","latitude":48.87191,"longitude":2.38504,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Bercy (terrasse Bercy)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Georges Brassens (entree)","address":"2, Place Jacques Marette","town":"PARIS","latitude":48.832722,"longitude":2.30069,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Solarium Edouard Pailleron","address":"39, Rue Edouard Pailleron","town":"PARIS","latitude":48.881302,"longitude":2.37939,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Alban Satragne","address":"107, Rue Du Faubourg Saint Denis","town":"PARIS","latitude":48.87513,"longitude":2.35585,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Alexandre Et Rene Parodi","address":"Boulevard Thierry De Martel","town":"PARIS","latitude":48.876598,"longitude":2.279772,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Amadou Hampate Ba","address":"17, Rue Boy Zelenski","town":"PARIS","latitude":48.87743,"longitude":2.36839,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Andre Ulmann","address":"17, Boulvard De Reims","town":"PARIS","latitude":48.890202,"longitude":2.2989,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Antoine Blondin","address":"128, Rue De Bagnolet","town":"PARIS","latitude":48.86079,"longitude":2.40479,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Charles Peguy","address":"Rue Rottembourg","town":"PARIS","latitude":48.838314,"longitude":2.406186,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Charonne","address":"159, Rue De Charonne","town":"PARIS","latitude":48.855492,"longitude":2.38959,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square De La Raffinerie Say","address":"Boulevard Vincent Auriol","town":"PARIS","latitude":48.831238,"longitude":2.356972,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Du Cardinal Petit De Julleville","address":"2, Rue Gustave Charpentier","town":"PARIS","latitude":48.882381,"longitude":2.28255,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Du Tchad","address":"8, Avenue Du Général Sarrail","town":"PARIS","latitude":48.84652,"longitude":2.25635,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Ernest Chausson","address":"55, Avenue De Clichy","town":"PARIS","latitude":48.887562,"longitude":2.32551,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Henri Cadiou","address":"69, Boulevard Arago","town":"PARIS","latitude":48.83483,"longitude":2.342073,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Jean Claude Nicolas Forestier","address":"79,  Boulevard Kellermann","town":"PARIS","latitude":48.82019,"longitude":2.34782,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Jean Xxiii","address":"Rue Du Cloitre Notre Dame","town":"PARIS","latitude":48.853126,"longitude":2.350701,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Juliette Dodu","address":"Angle Rue Juliette Dodu","town":"PARIS","latitude":48.874718,"longitude":2.369595,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Louis Xvi","address":"Rue Pasquier","town":"PARIS","latitude":48.87326,"longitude":2.323639,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Pixerecourt","address":"Rue Pixerecourt","town":"PARIS","latitude":48.871834,"longitude":2.395787,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Promenade Richard Lenoir","address":"67, Boulevard Richard Lenoir","town":"PARIS","latitude":48.860458,"longitude":2.37209,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Scipion","address":"8, Rue Scipion","town":"PARIS","latitude":48.838371,"longitude":2.35368,"dataset":"ParisData Wifi Hotspots"}
-{"name":"INSTITUT DU JUDO","address":"21 AVENUE DE LA PORTE DE CHATILLON","town":"PARIS","latitude":48.82336,"longitude":2.31648,"dataset":"ParisData Wifi Hotspots"}
-{"name":"HALLE GEORGES CARPENTIER ANNEXE HALL","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Porte Montmartre","address":"30-32 Avenue Porte de Montmartre","town":"PARIS","latitude":48.8992,"longitude":2.33635,"dataset":"ParisData Wifi Hotspots"}
-{"name":"MAISON DES ENTREPRISES ET DE L'EMPLOI DU 10eme","address":"209 rue Lafayette","town":"PARIS","latitude":48.88113,"longitude":2.36401,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Villemin","address":"8, Rue Des Recollets","town":"PARIS","latitude":48.874432,"longitude":2.36186,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'animation espace Jemmapes","address":"116, Quai de Jemmapes","town":"PARIS","latitude":48.87487,"longitude":2.36371,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Activites artisanales et creation","address":"30, Rue du Faubourg Saint Antoine","town":"PARIS","latitude":48.85249,"longitude":2.37171,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Hotel de Ville (1er etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parvis De L'Hotel De Ville","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Antenne Jeune Orillon","address":"43, Rue De L'Orillon","town":"PARIS","latitude":48.87051,"longitude":2.37733,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Andre Malraux","address":"78, Boulevard Raspail","town":"PARIS","latitude":48.848122,"longitude":2.32765,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Benjamin Rabier","address":"141, Avenue De Flandre","town":"PARIS","latitude":48.892681,"longitude":2.37923,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Brochant","address":"6, Rue Fourneyron","town":"PARIS","latitude":48.88972,"longitude":2.31957,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Chaptal","address":"26, Rue Chaptal","town":"PARIS","latitude":48.88105,"longitude":2.33225,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Clignancourt","address":"29, Rue Hermel","town":"PARIS","latitude":48.89151,"longitude":2.34451,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Drouot","address":"11, Rue Drouot","town":"PARIS","latitude":48.873371,"longitude":2.34053,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Faidherbe","address":"18, Rue Faidherbe","town":"PARIS","latitude":48.851559,"longitude":2.38376,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Francois Truffaut","address":"Forum Des Halles","town":"PARIS","latitude":48.861221,"longitude":2.34784,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Historique De La Ville De Paris","address":"24, Rue Pavee","town":"PARIS","latitude":48.85712,"longitude":2.36167,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Italie","address":"211, Boulevard Vincent Auriol","town":"PARIS","latitude":48.830959,"longitude":2.35688,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Jean Pierre Melville","address":"77, Rue Nationale","town":"PARIS","latitude":48.826832,"longitude":2.36656,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Louvre","address":"4, Place Du Louvre","town":"PARIS","latitude":48.860081,"longitude":2.34105,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Parmentier","address":"20, Avenue Parmentier","town":"PARIS","latitude":48.860039,"longitude":2.37882,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Plaisance","address":"3, Rue De Ridder","town":"PARIS","latitude":48.831188,"longitude":2.31191,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Edmond Rostand","address":"11, Rue Nicolas Chuquet","town":"PARIS","latitude":48.888451,"longitude":2.30301,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Saint Fargeau","address":"12, Rue Du Telegraphe","town":"PARIS","latitude":48.871948,"longitude":2.39975,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Vaugirard","address":"154, Rue Lecourbe","town":"PARIS","latitude":48.84164,"longitude":2.29938,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre Culturel La Jonquiere","address":"88, Rue La Jonquiere","town":"PARIS","latitude":48.89468,"longitude":2.31904,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Reuilly","address":"19, Rue Henard","town":"PARIS","latitude":48.842369,"longitude":2.38963,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Hebergement Maurice Ravel","address":"6, Avenue Maurice Ravel","town":"PARIS","latitude":48.841808,"longitude":2.41161,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Conseil de la Jeunesse","address":"40, Rue Didot","town":"PARIS","latitude":48.831532,"longitude":2.31994,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Espace des Blancs Manteaux","address":"48, Rue Veille Du Temple","town":"PARIS","latitude":48.858292,"longitude":2.35834,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Espace Reuilly","address":"21, Rue Henard","town":"PARIS","latitude":48.84248,"longitude":2.38967,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Arsenal","address":"20, Boulevard De La Bastille","town":"PARIS","latitude":48.848389,"longitude":2.36782,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin James Joyce","address":"Rue Georges Balanchine","town":"PARIS","latitude":48.836151,"longitude":2.373251,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Michelet","address":"237, Rue De Tolbiac","town":"PARIS","latitude":48.82626,"longitude":2.34301,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Du Moulin De La Pointe","address":"68, Rue Du Moulin De La Pointe","town":"PARIS","latitude":48.82093,"longitude":2.35635,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin De La Montgolfiere","address":"Rue Du Moulinet","town":"PARIS","latitude":48.826756,"longitude":2.354218,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Nicole De Hauteclocque","address":"28, Rue Edgar Faure","town":"PARIS","latitude":48.851798,"longitude":2.295668,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Damia","address":"Passage Du Bureau","town":"PARIS","latitude":48.853363,"longitude":2.394398,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 13E Arrondissement","address":"1, Place D'Italie","town":"PARIS","latitude":48.83221,"longitude":2.355547,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 6E Arrondissement","address":"78, Rue Bonaparte","town":"PARIS","latitude":48.85072,"longitude":2.33282,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 8E Arrondissement","address":"3, Rue De Lisbonne","town":"PARIS","latitude":48.877819,"longitude":2.31751,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 9E Arrondissement","address":"6, Rue Drouot","town":"PARIS","latitude":48.872601,"longitude":2.34044,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 12eme","address":"181, Avenue Daumesnil","town":"PARIS","latitude":48.840359,"longitude":2.39238,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 15eme","address":"26, Rue De La Saida","town":"PARIS","latitude":48.831711,"longitude":2.29621,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 16eme","address":"16, Avenue Rene Boylesve","town":"PARIS","latitude":48.85672,"longitude":2.28372,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 03eme","address":"2, Rue Eugene Spuller","town":"PARIS","latitude":48.864029,"longitude":2.36144,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee Cernuschi","address":"7, Avenue Velasquez","town":"PARIS","latitude":48.879841,"longitude":2.31233,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Bercy (jardinage)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Bercy","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de La Butte Du Chapeau Rouge","address":"5, Rue Alphonse Aulard","town":"PARIS","latitude":48.88031,"longitude":2.39908,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Claude Nicolas Ledoux","address":"2, Place Denfert Rochereau","town":"PARIS","latitude":48.835029,"longitude":2.332088,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Clos Feuquieres","address":"Rue Du Clos Feuquieres","town":"PARIS","latitude":48.836876,"longitude":2.29171,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square D'Anvers","address":"Place D'Anvers","town":"PARIS","latitude":48.881874,"longitude":2.344889,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square De La Marseillaise","address":"1 Bis, Rue De La Marseillaise","town":"PARIS","latitude":48.886076,"longitude":2.39818,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square De La Salamandre","address":"Rue Saint Blaise","town":"PARIS","latitude":48.85807,"longitude":2.407029,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Des Arenes De Lutece","address":"4 Rue Des Arenes","town":"PARIS","latitude":48.84507,"longitude":2.35421,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Emile Chautemps","address":"Rue Saint Martin","town":"PARIS","latitude":48.866818,"longitude":2.35431,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Fontaine A Mulard","address":"20, Rue De La Fontaine A Mulard","town":"PARIS","latitude":48.82301,"longitude":2.34889,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Gandon Et Massena","address":"211, Boulevard Massena","town":"PARIS","latitude":48.819172,"longitude":2.3599,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Heloise Et Abelard","address":"22, Rue Pierre Gourdault","town":"PARIS","latitude":48.83083,"longitude":2.37007,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Leon Serpollet","address":"25, Rue Des Cloys","town":"PARIS","latitude":48.892849,"longitude":2.33916,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Marcel Pagnol","address":"Place Henri Bergson","town":"PARIS","latitude":48.876175,"longitude":2.320497,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Maurice Gardette","address":"Rue Lacharriere","town":"PARIS","latitude":48.861698,"longitude":2.377441,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Gustave Mesureur","address":"105, Rue Jeanne D'Arc","town":"PARIS","latitude":48.833931,"longitude":2.36289,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin D Eole 2","address":"Rue D Aubervillier","town":"PARIS","latitude":48.89164,"longitude":2.368965,"dataset":"ParisData Wifi Hotspots"}
-{"name":"HALLE GEORGES CARPENTIER TENNIS DE TABLE","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"}
-{"name":"DSTI","address":"227, Rue de Bercy","town":"PARIS","latitude":48.8466,"longitude":2.36977,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Stade Coubertin","address":"82, Rue Georges Laffont","town":"PARIS","latitude":48.857146,"longitude":2.26284,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Hotel de Ville (2e etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Atelier de Restauration Photographique","address":"10, Rue De Fourcy","town":"PARIS","latitude":48.85495,"longitude":2.3592,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Amelie","address":"164, Rue De Grenelle","town":"PARIS","latitude":48.858002,"longitude":2.30898,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Beaugrenelle","address":"36, Rue Emeriau","town":"PARIS","latitude":48.849998,"longitude":2.28643,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Europe","address":"3, Rue De Lisbonne","town":"PARIS","latitude":48.877819,"longitude":2.31751,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Fessart","address":"6, Rue Fessart","town":"PARIS","latitude":48.876202,"longitude":2.38816,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Georges Brassens","address":"38, Rue Gassendi","town":"PARIS","latitude":48.83374,"longitude":2.32592,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Heure Joyeuse","address":"6, Rue Des Pretres Saint Severin","town":"PARIS","latitude":48.852039,"longitude":2.34513,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Isle Saint Louis","address":"21, Rue Saint Louis En L'Isle","town":"PARIS","latitude":48.851551,"longitude":2.35727,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Lancry","address":"11, Rue De Lancry","town":"PARIS","latitude":48.86935,"longitude":2.36038,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Marguerite Audoux","address":"8-12, Rue Portefoin","town":"PARIS","latitude":48.863602,"longitude":2.36003,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Vandamme","address":"80, Avenue Du Maine","town":"PARIS","latitude":48.838612,"longitude":2.32229,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bourse Du Travail","address":"3, Rue Du Chateau D'Eau","town":"PARIS","latitude":48.86911,"longitude":2.36215,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Espace Beaujon","address":"208, Rue Du Faubourg Saint Honore","town":"PARIS","latitude":48.87532,"longitude":2.30453,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre Sportif Suzanne Lenglen","address":"2, Rue Louis Armand","town":"PARIS","latitude":48.833141,"longitude":2.27663,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Discothèque des Halles","address":"8, Porte Saint Eustache","town":"PARIS","latitude":48.862759,"longitude":2.345275,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Esplanade Des Invalides","address":"1, Rue Paul","town":"PARIS","latitude":48.85249,"longitude":2.36064,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Bataclan","address":"102, Boulevard Richard Lenoir","town":"PARIS","latitude":48.86343,"longitude":2.37178,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin D Eole 1","address":"Rue D Aubervillier","town":"PARIS","latitude":48.89164,"longitude":2.368965,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Gare De Charonne","address":"59, Boulevard Davout","town":"PARIS","latitude":48.852329,"longitude":2.41075,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Hospice Debrousse","address":"148, Rue De Bagnolet","town":"PARIS","latitude":48.862308,"longitude":2.40628,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Casque D'Or","address":"20, Rue Des Haies","town":"PARIS","latitude":48.852741,"longitude":2.40048,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 17E Arrondissement","address":"16, Rue Des Batignolles","town":"PARIS","latitude":48.884251,"longitude":2.32202,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 7E Arrondissement","address":"116, Rue De Grenelle","town":"PARIS","latitude":48.856819,"longitude":2.31999,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 13eme","address":"13, Rue Caillaux","town":"PARIS","latitude":48.82264,"longitude":2.36109,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 14eme","address":"22, Rue Deparcieux","town":"PARIS","latitude":48.835579,"longitude":2.32588,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 18eme","address":"15, Passage Ramey","town":"PARIS","latitude":48.890041,"longitude":2.3474,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 09eme","address":"54, Rue Pigalle","town":"PARIS","latitude":48.88224,"longitude":2.33697,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Champs De Mars","address":"Avenue Charles Risler","town":"PARIS","latitude":48.854603,"longitude":2.300178,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc des Buttes Chaumont (Carrel)","address":"4, Place Armand Carrel","town":"PARIS","latitude":48.88274,"longitude":2.38249,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc des Buttes Chaumont (Fessard)","address":"3, Rue Botzaris","town":"PARIS","latitude":48.878045,"longitude":2.381454,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Georges Brassens (rotonde)","address":"2, Place Jacques Marette","town":"PARIS","latitude":48.832722,"longitude":2.30069,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Montsouris","address":"2, Rue Gazan","town":"PARIS","latitude":48.82452,"longitude":2.33994,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin De La Vallee Suisse","address":"Avenue Edouard Tuck","town":"PARIS","latitude":48.865398,"longitude":2.317336,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Promenade Des Champs Elysees","address":"Avenue Edouard Tuck","town":"PARIS","latitude":48.865398,"longitude":2.317336,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Promenade Plantee","address":"Allee Vivaldi","town":"PARIS","latitude":48.841576,"longitude":2.391099,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square De L'Ave Maria","address":"30, Quai Des Celestins","town":"PARIS","latitude":48.85265,"longitude":2.35964,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Des Batignolles","address":"Place Charles Fillion","town":"PARIS","latitude":48.887608,"longitude":2.317353,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Des Epinettes","address":"Rue Maria Deraismes","town":"PARIS","latitude":48.894337,"longitude":2.32722,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Du Chanoine Viollet","address":"72, Rue Du Moulin Vert","town":"PARIS","latitude":48.831139,"longitude":2.32025,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Edouard Vaillant","address":"Rue Belgrand","town":"PARIS","latitude":48.8647,"longitude":2.40367,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Felix Desruelles","address":"168 Bis, Boulevard Saint Germain","town":"PARIS","latitude":48.853359,"longitude":2.33514,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Ferdinand Brunot","address":"Place Ferdinand Brunot","town":"PARIS","latitude":48.832909,"longitude":2.32645,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Georges Cain","address":"14, Rue Payenne","town":"PARIS","latitude":48.858379,"longitude":2.36256,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Henri Huchard","address":"32, Avenue De La Porte De Saint Ouen","town":"PARIS","latitude":48.8997,"longitude":2.32986,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Julia Bartet","address":"Rue Julia Bartet","town":"PARIS","latitude":48.826363,"longitude":2.303192,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Marcel Mouloudji","address":"2, Rue Pierre Reverdy","town":"PARIS","latitude":48.8853,"longitude":2.37628,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Saint Lambert 1","address":"1, Rue Theophraste Renaudot","town":"PARIS","latitude":48.842766,"longitude":2.295214,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Sainte-Helene","address":"41, Rue Letort.","town":"PARIS","latitude":48.895981,"longitude":2.34342,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Suzanne Buisson","address":"7, Rue Girardon.","town":"PARIS","latitude":48.888034,"longitude":2.337743,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Trinite D'Estienne D'Orves","address":"Rue Blanche","town":"PARIS","latitude":48.87991,"longitude":2.331357,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Picpus","address":"70, Rue De Picpus","town":"PARIS","latitude":48.84259,"longitude":2.39758,"dataset":"ParisData Wifi Hotspots"}
-{"name":"HALLE GEORGES CARPENTIER","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"}
-{"name":"MEDIATHEQUE MARGUERITE DURAS","address":"115 RUE DE BAGNOLET","town":"PARIS","latitude":48.859772,"longitude":2.40325,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison Communale du 15 ème","address":"69 RUE VIOLET","town":"PARIS","latitude":48.845638,"longitude":2.29131,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Monceau","address":"1, Place De La Republique Dominicaine","town":"PARIS","latitude":48.873548,"longitude":2.31079,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations du 1er -","address":"5 bis rue du Louvre","town":"PARIS","latitude":48.861839,"longitude":2.34131,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Hotel de Ville (sous-sol et rdc)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parvis De L'Hotel De Ville","address":"9, Place De L'Hotel De Ville","town":"PARIS","latitude":48.857151,"longitude":2.3513,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Antenne Jeune Davout","address":"94, Boulevard Davout","town":"PARIS","latitude":48.856701,"longitude":2.41,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Charlote Delbo","address":"2, Passage Des Petits Peres","town":"PARIS","latitude":48.866459,"longitude":2.34039,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Courcelles","address":"17 Ter, Avenue Beaucour","town":"PARIS","latitude":48.877708,"longitude":2.30313,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Couronnes","address":"66, Rue Des Couronnes","town":"PARIS","latitude":48.8703,"longitude":2.38518,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Crimee","address":"42, Rue Petit","town":"PARIS","latitude":48.88493,"longitude":2.38291,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Port Royal","address":"88 Ter, Boulevard De Port Royal","town":"PARIS","latitude":48.839031,"longitude":2.33915,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Reunion","address":"29-35, Rue Des Haies","town":"PARIS","latitude":48.853119,"longitude":2.40104,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Saint Eloi","address":"23, Rue Du Colonel Rozanoff","town":"PARIS","latitude":48.845532,"longitude":2.38722,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Trocadero","address":"2, Rue Du Commandant Schloesing","town":"PARIS","latitude":48.861839,"longitude":2.28524,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Accueil Kellermann","address":"17, Boulevard Kellermann","town":"PARIS","latitude":48.819801,"longitude":2.35673,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Les Halles Le Marais","address":"6, Place Carree","town":"PARIS","latitude":48.88274,"longitude":2.38249,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Louis Lumiere","address":"46, Rue Louis Lumiere","town":"PARIS","latitude":48.86042,"longitude":2.41127,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Montgallet","address":"4, Passage Stinville","town":"PARIS","latitude":48.844219,"longitude":2.38831,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Hotel D Albret","address":"31, Rue Des Francs Bourgeois","town":"PARIS","latitude":48.857601,"longitude":2.36093,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Catherine Laboure","address":"33, Rue De Babylone","town":"PARIS","latitude":48.851681,"longitude":2.31987,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Cyprian Norwid","address":"36, Rue Du Chevaleret","town":"PARIS","latitude":48.828129,"longitude":2.37666,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Claude Bernard","address":"Boulevard Macdonald","town":"PARIS","latitude":48.898666,"longitude":2.378679,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin De La Promenade Pereire","address":"211, Boulevard Pereire","town":"PARIS","latitude":48.88097,"longitude":2.2902,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Du Ranelagh","address":"Chaussee De La Muette","town":"PARIS","latitude":48.858345,"longitude":2.270875,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Louis Majorelle","address":"24, Rue De La Forge Royale","town":"PARIS","latitude":48.851952,"longitude":2.38078,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Porte De Saint Cloud","address":"20, Avenue Ferdinand Buisson","town":"PARIS","latitude":48.836784,"longitude":2.253456,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Rue Debergue","address":"34 Rue Du Rendez-Vous","town":"PARIS","latitude":48.84568,"longitude":2.40333,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Tino Rossi","address":"8 Quai Saint Bernard","town":"PARIS","latitude":48.847408,"longitude":2.36012,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 15E Arrondissement","address":"31, Rue Peclet","town":"PARIS","latitude":48.841511,"longitude":2.29971,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 16E Arrondissement","address":"71, Avenue Henri Martin","town":"PARIS","latitude":48.86404,"longitude":2.27662,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 19E Arrondissement","address":"5, Place Armand Carrel","town":"PARIS","latitude":48.882622,"longitude":2.38203,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 2E Arrondissement","address":"8, Rue De La Banque","town":"PARIS","latitude":48.866852,"longitude":2.34037,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 5E Arrondissement","address":"21, Place Du Pantheon","town":"PARIS","latitude":48.84623,"longitude":2.344676,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison de Balzac","address":"47, Rue Raynouard","town":"PARIS","latitude":48.855419,"longitude":2.2807,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison de Victor Hugo","address":"6, Place Des Vosges","town":"PARIS","latitude":48.854931,"longitude":2.36615,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 11eme","address":"8, Rue Du General Renault","town":"PARIS","latitude":48.861401,"longitude":2.37835,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 19eme","address":"20, Rue Edouard Pailleron","town":"PARIS","latitude":48.880489,"longitude":2.37645,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 02eme","address":"23, Rue Greneta","town":"PARIS","latitude":48.865162,"longitude":2.35053,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison Du Developpement Economique Du 19eme","address":"27, Rue Du Maroc","town":"PARIS","latitude":48.88702,"longitude":2.3679,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison Initiatives Etudiantes","address":"50, Rue Des Tournelles","town":"PARIS","latitude":48.85622,"longitude":2.3673,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee Carnavalet","address":"23, Rue De Sevigne","town":"PARIS","latitude":48.857029,"longitude":2.36292,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Andre Citroen","address":"Rue De La Montagne De La Fage","town":"PARIS","latitude":48.839214,"longitude":2.276927,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Clichy Batignolles","address":"Rue Cardinet","town":"PARIS","latitude":48.884766,"longitude":2.310258,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Belleville","address":"45, Rue Des Couronnes","town":"PARIS","latitude":48.870258,"longitude":2.38482,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Passy","address":"Avenue Du President Kennedy","town":"PARIS","latitude":48.85379,"longitude":2.282583,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Solarium Josephine Baker","address":"Porte De La Gare","town":"PARIS","latitude":48.832458,"longitude":2.37965,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Solarium Roger Le Gall","address":"34, Boulevard Carnot","town":"PARIS","latitude":48.84211,"longitude":2.41312,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square De La Villa Sainte-Croix","address":"32, Rue De La Jonquiere","town":"PARIS","latitude":48.893539,"longitude":2.32431,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Des Jardiniers","address":"2 Passage Dumas","town":"PARIS","latitude":48.852027,"longitude":2.389877,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Emmanuelle Fleury","address":"Rue Le Vau","town":"PARIS","latitude":48.868038,"longitude":2.410999,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Georges Duhamel","address":"Rue Jean Anouilh","town":"PARIS","latitude":48.831783,"longitude":2.377777,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Jean Aicard","address":"Avenue Jean Aicard","town":"PARIS","latitude":48.865364,"longitude":2.38103,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Leon","address":"Passage Leon","town":"PARIS","latitude":48.885826,"longitude":2.353192,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Leopold Achille","address":"13-13Bis, Rue Payenne","town":"PARIS","latitude":48.858349,"longitude":2.36253,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Louis Xiii","address":"30 Place Des Vosges","town":"PARIS","latitude":48.856159,"longitude":2.36595,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Montholon","address":"Rue La Fayette","town":"PARIS","latitude":48.875153,"longitude":2.341068,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Orillon Jules Vernes","address":"19 Bis, Rue De L'Orillon","town":"PARIS","latitude":48.869862,"longitude":2.37514,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Rene Viviani","address":"Rue Lagrange","town":"PARIS","latitude":48.851162,"longitude":2.34807,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Blomet","address":"43 Rue Blomet","town":"PARIS","latitude":48.8425,"longitude":2.305323,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Saint Lambert 2","address":"1, Rue Theophraste Renaudot","town":"PARIS","latitude":48.842766,"longitude":2.295214,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Samuel Champlain","address":"9, Avenue Gambetta","town":"PARIS","latitude":48.86343,"longitude":2.38962,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Serment De Koufra","address":"Avenue Ernest Reyer","town":"PARIS","latitude":48.823002,"longitude":2.321349,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Archives de Paris","address":"18, Boulevard Serurier","town":"PARIS","latitude":48.87785,"longitude":2.40572,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Diderot","address":"42, Rue Daumesnil","town":"PARIS","latitude":48.846088,"longitude":2.37785,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Flandre","address":"35, Rue De Flandre","town":"PARIS","latitude":48.886188,"longitude":2.3711,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Forney","address":"1, Rue Du Figuier","town":"PARIS","latitude":48.85347,"longitude":2.3593,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Glaciere","address":"132, Rue De La Glaciere","town":"PARIS","latitude":48.827278,"longitude":2.34215,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Goutte D'Or","address":"2, Rue Fleury","town":"PARIS","latitude":48.884369,"longitude":2.35408,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Herge","address":"2, Rue Du Departement","town":"PARIS","latitude":48.88496,"longitude":2.36717,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Mouffetard","address":"74, Rue Mouffetard","town":"PARIS","latitude":48.842499,"longitude":2.34971,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Place Des Fetes","address":"18, Rue Janssen","town":"PARIS","latitude":48.879292,"longitude":2.39763,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Bibliothèque Saint Simon","address":"116, Rue De Grenelle","town":"PARIS","latitude":48.856819,"longitude":2.31999,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Daviel","address":"24, Rue Daviel","town":"PARIS","latitude":48.828098,"longitude":2.34484,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Centre d'Animation Jean Mathis","address":"15, Rue Mathis","town":"PARIS","latitude":48.890869,"longitude":2.37508,"dataset":"ParisData Wifi Hotspots"}
-{"name":"E.C.A Rive Gauche","address":"24, Rue Des Ecoles","town":"PARIS","latitude":48.848751,"longitude":2.348,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Espace Economie Emploi Du 14eme","address":"13, Rue Remy Dumoncel","town":"PARIS","latitude":48.829739,"longitude":2.33237,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Cite Prost","address":"17 Rue Titon","town":"PARIS","latitude":48.851879,"longitude":2.38638,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Des Amandiers","address":"Rue Des Cendriers","town":"PARIS","latitude":48.865696,"longitude":2.387367,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Du Trocadero","address":"1, Place Du Onze Novembre 1918","town":"PARIS","latitude":48.87599,"longitude":2.35926,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Jardin Porte De Chatillon","address":"16-26, Rue De Chatillon","town":"PARIS","latitude":48.82753,"longitude":2.32335,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 10E Arrondissement","address":"72, Rue Du Faubourg Saint Martin","town":"PARIS","latitude":48.871818,"longitude":2.35722,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 11E Arrondissement","address":"Place Leon Blum","town":"PARIS","latitude":48.858356,"longitude":2.379501,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 12E Arrondissement","address":"130, Avenue Daumesnil","town":"PARIS","latitude":48.841259,"longitude":2.3884,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 18E Arrondissement","address":"1, Place Jules Joffrin","town":"PARIS","latitude":48.892448,"longitude":2.34473,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 20E Arrondissement","address":"6, Place Gambetta","town":"PARIS","latitude":48.865002,"longitude":2.39878,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 3E Arrondissement","address":"2, Rue Eugene Spuller","town":"PARIS","latitude":48.864029,"longitude":2.36144,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Mairie du 4E Arrondissement","address":"2, Place Baudoyer","town":"PARIS","latitude":48.856209,"longitude":2.35543,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison Du Developpement Economique Du 20eme","address":"31, Rue De Pixerecourt","town":"PARIS","latitude":48.871929,"longitude":2.39583,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Musee Antoine Bourdelle","address":"16, Rue Antoine Bourdelle","town":"PARIS","latitude":48.842949,"longitude":2.31886,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Andre Citroen","address":"5, Rue De La Montagne De La Fage","town":"PARIS","latitude":48.840069,"longitude":2.27742,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Bercy (orangerie)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc de Choisy","address":"160, Avenue De Choisy","town":"PARIS","latitude":48.828659,"longitude":2.35795,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc des Buttes Chaumont (Bolivar)","address":"1, Rue Botzaris","town":"PARIS","latitude":48.876972,"longitude":2.38117,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc des Buttes Chaumont","address":"74, Rue Botzaris","town":"PARIS","latitude":48.879532,"longitude":2.38847,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Parc Kellermann","address":"3, Rue De La Poterne Des Peupliers","town":"PARIS","latitude":48.820518,"longitude":2.35266,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Alleray Labrouste","address":"92, Rue D'Alleray","town":"PARIS","latitude":48.83633,"longitude":2.3087,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Aspirant Dunand","address":"Rue Mouton Duvernet","town":"PARIS","latitude":48.832031,"longitude":2.327424,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Breguet Sabin","address":"25, Boulevard Richard Lenoir","town":"PARIS","latitude":48.85706,"longitude":2.37062,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square La Petite Roquette","address":"4, Rue Servan","town":"PARIS","latitude":48.8591,"longitude":2.38409,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Ozanam","address":"Boulevard Du Montparnasse","town":"PARIS","latitude":48.845009,"longitude":2.320318,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Paul Langevin","address":"20 Rue Monge","town":"PARIS","latitude":48.848438,"longitude":2.3502,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Rene Legall","address":"43, Rue Corvisart","town":"PARIS","latitude":48.831082,"longitude":2.348069,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Saint Eloi","address":"15, Rue Sainte Claire Deville","town":"PARIS","latitude":48.844212,"longitude":2.38748,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Saint Medard","address":"32 Rue Censier","town":"PARIS","latitude":48.839653,"longitude":2.350873,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Sarah Berhnardt","address":"Rue De Lagny","town":"PARIS","latitude":48.84898,"longitude":2.407761,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Square Violet","address":"Place Violet","town":"PARIS","latitude":48.844677,"longitude":2.290432,"dataset":"ParisData Wifi Hotspots"}
-{"name":"Maison des Associations Du 17eme","address":"25, Rue Lantiez","town":"PARIS","latitude":48.895012,"longitude":2.3238,"dataset":"ParisData Wifi Hotspots"}
-{"name":"TOUR ST JACQUES","address":"88 RUE DE RIVOLI","town":"PARIS","latitude":48.85815,"longitude":2.34929,"dataset":"ParisData Wifi Hotspots"}
-{"name":"PISCINE GEORGES VALLEREY","address":"148 AVENUE GAMBETTA","town":"PARIS","latitude":48.875439,"longitude":2.40584,"dataset":"ParisData Wifi Hotspots"}
-{"name":"MAISON DES INITIATIVES","address":"3 RUE JEAN ANTOINE DE BAIF","town":"PARIS","latitude":48.827862,"longitude":2.38436,"dataset":"ParisData Wifi Hotspots"}
+{"name":"ParisData Wifi Hotspots","url":"http://parisdata.opendatasoft.com/explore/dataset/liste_des_sites_des_hotspots_paris_wifi/download/?format=json&timezone=Europe/Berlin"}
+__DATASET_END__
+[{"name":"Hotel de Ville (3eme etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Hotel de Ville (4e etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Allee Vivaldi","address":"13, Rue Henard","town":"PARIS","latitude":48.842049,"longitude":2.38947,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Annexe Maison des Associations Du 09eme","address":"35, Rue Victor Masse","town":"PARIS","latitude":48.881031,"longitude":2.33704,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Administrative De La Ville De Paris","address":"5, Rue De Lobau","town":"PARIS","latitude":48.856701,"longitude":2.35359,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Batignolles","address":"18, Rue Des Batignolles","town":"PARIS","latitude":48.88438,"longitude":2.3218,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Buffon","address":"15 Bis, Rue Buffon","town":"PARIS","latitude":48.84272,"longitude":2.36195,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Chateau D'Eau","address":"72, Rue Du Faubourg Saint Martin","town":"PARIS","latitude":48.871818,"longitude":2.35722,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Des Litteratures Policier","address":"48, Rue Du Cardinal Lemoine","town":"PARIS","latitude":48.846458,"longitude":2.35144,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Francois Villon","address":"81, Boulevard De La Villette","town":"PARIS","latitude":48.877258,"longitude":2.37089,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Gutenberg","address":"8, Rue De La Montagne D'Aulas","town":"PARIS","latitude":48.840271,"longitude":2.27868,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Maurice Genevoix","address":"19, Rue Tristan Tzara","town":"PARIS","latitude":48.895027,"longitude":2.364053,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Musset","address":"20, Rue De Musset","town":"PARIS","latitude":48.842023,"longitude":2.263587,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Personnel","address":"17, Boulevard Morland","town":"PARIS","latitude":48.85006,"longitude":2.3634,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Sorbier","address":"17, Rue Sorbier","town":"PARIS","latitude":48.86589,"longitude":2.39272,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Valeyre","address":"24, Rue De Rochechouart","town":"PARIS","latitude":48.877979,"longitude":2.34486,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Yourcenar","address":"41, Rue D Alleray","town":"PARIS","latitude":48.83672,"longitude":2.30365,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Carre Baudoin","address":"121, Rue De Mesnilmontant","town":"PARIS","latitude":48.869862,"longitude":2.39405,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre Animation Espace Cevennes","address":"9, Rue De La Montagne D'Aulas","town":"PARIS","latitude":48.840302,"longitude":2.27893,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Angele Mercier","address":"133, Boulevard Serurier","town":"PARIS","latitude":48.88417,"longitude":2.39462,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre Sportif Louis Lumiere","address":"30, Rue Louis Lumiere","town":"PARIS","latitude":48.85918,"longitude":2.41146,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Atlantique","address":"5, Place Des Cinq Martyrs Du Lycée Buffon","town":"PARIS","latitude":48.838791,"longitude":2.31683,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Chateau Des Rentiers","address":"Rue Du Chateau Des Rentiers","town":"PARIS","latitude":48.826317,"longitude":2.369109,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin De Reuilly","address":"1, Rue Albinoni","town":"PARIS","latitude":48.84288,"longitude":2.38845,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Jules Noel","address":"3, Avenue Maurice D'Ocagne","town":"PARIS","latitude":48.82457,"longitude":2.31402,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 14E Arrondissement","address":"2, Place Ferdinand Brunot","town":"PARIS","latitude":48.832828,"longitude":2.32674,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 1Er Arrondissement","address":"4, Place Du Louvre","town":"PARIS","latitude":48.860081,"longitude":2.34105,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison de L'Emploi Du 13eme","address":"126, Avenue D'Italie","town":"PARIS","latitude":48.82375,"longitude":2.35801,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison de L'Emploi Du 18eme","address":"164, Rue Ordener","town":"PARIS","latitude":48.893761,"longitude":2.33547,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 04eme","address":"38 , Boulevard Henry IV","town":"PARIS","latitude":48.852291,"longitude":2.36628,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 05eme","address":"7, Square Adanson","town":"PARIS","latitude":48.83942,"longitude":2.35188,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 10eme","address":"206, Quai De Valmy","town":"PARIS","latitude":48.88216,"longitude":2.36892,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 20eme","address":"1, Rue Frederick Lemaitre","town":"PARIS","latitude":48.873421,"longitude":2.391,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 06eme","address":"60, Rue Saint Andre Des Arts","town":"PARIS","latitude":48.853496,"longitude":2.339608,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 07eme","address":"93, Rue Saint Dominique","town":"PARIS","latitude":48.859638,"longitude":2.30718,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 08eme","address":"23, Rue Vernet","town":"PARIS","latitude":48.871948,"longitude":2.29813,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee D'Art Moderne","address":"11, Avenue Du President Wilson","town":"PARIS","latitude":48.86478,"longitude":2.29557,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee Du Petit Palais","address":"1, Avenue Dutuit","town":"PARIS","latitude":48.866083,"longitude":2.31564,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee Memorial Marechal Leclerc","address":"23, Allee De La Deuxieme Division Blindee","town":"PARIS","latitude":48.840485,"longitude":2.32021,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Belleville","address":"27, Rue Piat","town":"PARIS","latitude":48.87191,"longitude":2.38504,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Bercy (terrasse Bercy)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Georges Brassens (entree)","address":"2, Place Jacques Marette","town":"PARIS","latitude":48.832722,"longitude":2.30069,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Solarium Edouard Pailleron","address":"39, Rue Edouard Pailleron","town":"PARIS","latitude":48.881302,"longitude":2.37939,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Alban Satragne","address":"107, Rue Du Faubourg Saint Denis","town":"PARIS","latitude":48.87513,"longitude":2.35585,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Alexandre Et Rene Parodi","address":"Boulevard Thierry De Martel","town":"PARIS","latitude":48.876598,"longitude":2.279772,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Amadou Hampate Ba","address":"17, Rue Boy Zelenski","town":"PARIS","latitude":48.87743,"longitude":2.36839,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Andre Ulmann","address":"17, Boulvard De Reims","town":"PARIS","latitude":48.890202,"longitude":2.2989,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Antoine Blondin","address":"128, Rue De Bagnolet","town":"PARIS","latitude":48.86079,"longitude":2.40479,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Charles Peguy","address":"Rue Rottembourg","town":"PARIS","latitude":48.838314,"longitude":2.406186,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Charonne","address":"159, Rue De Charonne","town":"PARIS","latitude":48.855492,"longitude":2.38959,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square De La Raffinerie Say","address":"Boulevard Vincent Auriol","town":"PARIS","latitude":48.831238,"longitude":2.356972,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Du Cardinal Petit De Julleville","address":"2, Rue Gustave Charpentier","town":"PARIS","latitude":48.882381,"longitude":2.28255,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Du Tchad","address":"8, Avenue Du Général Sarrail","town":"PARIS","latitude":48.84652,"longitude":2.25635,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Ernest Chausson","address":"55, Avenue De Clichy","town":"PARIS","latitude":48.887562,"longitude":2.32551,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Henri Cadiou","address":"69, Boulevard Arago","town":"PARIS","latitude":48.83483,"longitude":2.342073,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Jean Claude Nicolas Forestier","address":"79,  Boulevard Kellermann","town":"PARIS","latitude":48.82019,"longitude":2.34782,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Jean Xxiii","address":"Rue Du Cloitre Notre Dame","town":"PARIS","latitude":48.853126,"longitude":2.350701,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Juliette Dodu","address":"Angle Rue Juliette Dodu","town":"PARIS","latitude":48.874718,"longitude":2.369595,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Louis Xvi","address":"Rue Pasquier","town":"PARIS","latitude":48.87326,"longitude":2.323639,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Pixerecourt","address":"Rue Pixerecourt","town":"PARIS","latitude":48.871834,"longitude":2.395787,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Promenade Richard Lenoir","address":"67, Boulevard Richard Lenoir","town":"PARIS","latitude":48.860458,"longitude":2.37209,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Scipion","address":"8, Rue Scipion","town":"PARIS","latitude":48.838371,"longitude":2.35368,"dataset":"ParisData Wifi Hotspots"},
+{"name":"INSTITUT DU JUDO","address":"21 AVENUE DE LA PORTE DE CHATILLON","town":"PARIS","latitude":48.82336,"longitude":2.31648,"dataset":"ParisData Wifi Hotspots"},
+{"name":"HALLE GEORGES CARPENTIER ANNEXE HALL","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Porte Montmartre","address":"30-32 Avenue Porte de Montmartre","town":"PARIS","latitude":48.8992,"longitude":2.33635,"dataset":"ParisData Wifi Hotspots"},
+{"name":"MAISON DES ENTREPRISES ET DE L'EMPLOI DU 10eme","address":"209 rue Lafayette","town":"PARIS","latitude":48.88113,"longitude":2.36401,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Villemin","address":"8, Rue Des Recollets","town":"PARIS","latitude":48.874432,"longitude":2.36186,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'animation espace Jemmapes","address":"116, Quai de Jemmapes","town":"PARIS","latitude":48.87487,"longitude":2.36371,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Activites artisanales et creation","address":"30, Rue du Faubourg Saint Antoine","town":"PARIS","latitude":48.85249,"longitude":2.37171,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Hotel de Ville (1er etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parvis De L'Hotel De Ville","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Antenne Jeune Orillon","address":"43, Rue De L'Orillon","town":"PARIS","latitude":48.87051,"longitude":2.37733,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Andre Malraux","address":"78, Boulevard Raspail","town":"PARIS","latitude":48.848122,"longitude":2.32765,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Benjamin Rabier","address":"141, Avenue De Flandre","town":"PARIS","latitude":48.892681,"longitude":2.37923,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Brochant","address":"6, Rue Fourneyron","town":"PARIS","latitude":48.88972,"longitude":2.31957,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Chaptal","address":"26, Rue Chaptal","town":"PARIS","latitude":48.88105,"longitude":2.33225,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Clignancourt","address":"29, Rue Hermel","town":"PARIS","latitude":48.89151,"longitude":2.34451,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Drouot","address":"11, Rue Drouot","town":"PARIS","latitude":48.873371,"longitude":2.34053,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Faidherbe","address":"18, Rue Faidherbe","town":"PARIS","latitude":48.851559,"longitude":2.38376,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Francois Truffaut","address":"Forum Des Halles","town":"PARIS","latitude":48.861221,"longitude":2.34784,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Historique De La Ville De Paris","address":"24, Rue Pavee","town":"PARIS","latitude":48.85712,"longitude":2.36167,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Italie","address":"211, Boulevard Vincent Auriol","town":"PARIS","latitude":48.830959,"longitude":2.35688,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Jean Pierre Melville","address":"77, Rue Nationale","town":"PARIS","latitude":48.826832,"longitude":2.36656,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Louvre","address":"4, Place Du Louvre","town":"PARIS","latitude":48.860081,"longitude":2.34105,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Parmentier","address":"20, Avenue Parmentier","town":"PARIS","latitude":48.860039,"longitude":2.37882,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Plaisance","address":"3, Rue De Ridder","town":"PARIS","latitude":48.831188,"longitude":2.31191,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Edmond Rostand","address":"11, Rue Nicolas Chuquet","town":"PARIS","latitude":48.888451,"longitude":2.30301,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Saint Fargeau","address":"12, Rue Du Telegraphe","town":"PARIS","latitude":48.871948,"longitude":2.39975,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Vaugirard","address":"154, Rue Lecourbe","town":"PARIS","latitude":48.84164,"longitude":2.29938,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre Culturel La Jonquiere","address":"88, Rue La Jonquiere","town":"PARIS","latitude":48.89468,"longitude":2.31904,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Reuilly","address":"19, Rue Henard","town":"PARIS","latitude":48.842369,"longitude":2.38963,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Hebergement Maurice Ravel","address":"6, Avenue Maurice Ravel","town":"PARIS","latitude":48.841808,"longitude":2.41161,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Conseil de la Jeunesse","address":"40, Rue Didot","town":"PARIS","latitude":48.831532,"longitude":2.31994,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Espace des Blancs Manteaux","address":"48, Rue Veille Du Temple","town":"PARIS","latitude":48.858292,"longitude":2.35834,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Espace Reuilly","address":"21, Rue Henard","town":"PARIS","latitude":48.84248,"longitude":2.38967,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Arsenal","address":"20, Boulevard De La Bastille","town":"PARIS","latitude":48.848389,"longitude":2.36782,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin James Joyce","address":"Rue Georges Balanchine","town":"PARIS","latitude":48.836151,"longitude":2.373251,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Michelet","address":"237, Rue De Tolbiac","town":"PARIS","latitude":48.82626,"longitude":2.34301,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Du Moulin De La Pointe","address":"68, Rue Du Moulin De La Pointe","town":"PARIS","latitude":48.82093,"longitude":2.35635,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin De La Montgolfiere","address":"Rue Du Moulinet","town":"PARIS","latitude":48.826756,"longitude":2.354218,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Nicole De Hauteclocque","address":"28, Rue Edgar Faure","town":"PARIS","latitude":48.851798,"longitude":2.295668,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Damia","address":"Passage Du Bureau","town":"PARIS","latitude":48.853363,"longitude":2.394398,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 13E Arrondissement","address":"1, Place D'Italie","town":"PARIS","latitude":48.83221,"longitude":2.355547,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 6E Arrondissement","address":"78, Rue Bonaparte","town":"PARIS","latitude":48.85072,"longitude":2.33282,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 8E Arrondissement","address":"3, Rue De Lisbonne","town":"PARIS","latitude":48.877819,"longitude":2.31751,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 9E Arrondissement","address":"6, Rue Drouot","town":"PARIS","latitude":48.872601,"longitude":2.34044,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 12eme","address":"181, Avenue Daumesnil","town":"PARIS","latitude":48.840359,"longitude":2.39238,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 15eme","address":"26, Rue De La Saida","town":"PARIS","latitude":48.831711,"longitude":2.29621,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 16eme","address":"16, Avenue Rene Boylesve","town":"PARIS","latitude":48.85672,"longitude":2.28372,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 03eme","address":"2, Rue Eugene Spuller","town":"PARIS","latitude":48.864029,"longitude":2.36144,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee Cernuschi","address":"7, Avenue Velasquez","town":"PARIS","latitude":48.879841,"longitude":2.31233,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Bercy (jardinage)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Bercy","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de La Butte Du Chapeau Rouge","address":"5, Rue Alphonse Aulard","town":"PARIS","latitude":48.88031,"longitude":2.39908,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Claude Nicolas Ledoux","address":"2, Place Denfert Rochereau","town":"PARIS","latitude":48.835029,"longitude":2.332088,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Clos Feuquieres","address":"Rue Du Clos Feuquieres","town":"PARIS","latitude":48.836876,"longitude":2.29171,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square D'Anvers","address":"Place D'Anvers","town":"PARIS","latitude":48.881874,"longitude":2.344889,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square De La Marseillaise","address":"1 Bis, Rue De La Marseillaise","town":"PARIS","latitude":48.886076,"longitude":2.39818,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square De La Salamandre","address":"Rue Saint Blaise","town":"PARIS","latitude":48.85807,"longitude":2.407029,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Des Arenes De Lutece","address":"4 Rue Des Arenes","town":"PARIS","latitude":48.84507,"longitude":2.35421,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Emile Chautemps","address":"Rue Saint Martin","town":"PARIS","latitude":48.866818,"longitude":2.35431,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Fontaine A Mulard","address":"20, Rue De La Fontaine A Mulard","town":"PARIS","latitude":48.82301,"longitude":2.34889,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Gandon Et Massena","address":"211, Boulevard Massena","town":"PARIS","latitude":48.819172,"longitude":2.3599,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Heloise Et Abelard","address":"22, Rue Pierre Gourdault","town":"PARIS","latitude":48.83083,"longitude":2.37007,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Leon Serpollet","address":"25, Rue Des Cloys","town":"PARIS","latitude":48.892849,"longitude":2.33916,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Marcel Pagnol","address":"Place Henri Bergson","town":"PARIS","latitude":48.876175,"longitude":2.320497,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Maurice Gardette","address":"Rue Lacharriere","town":"PARIS","latitude":48.861698,"longitude":2.377441,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Gustave Mesureur","address":"105, Rue Jeanne D'Arc","town":"PARIS","latitude":48.833931,"longitude":2.36289,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin D Eole 2","address":"Rue D Aubervillier","town":"PARIS","latitude":48.89164,"longitude":2.368965,"dataset":"ParisData Wifi Hotspots"},
+{"name":"HALLE GEORGES CARPENTIER TENNIS DE TABLE","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"},
+{"name":"DSTI","address":"227, Rue de Bercy","town":"PARIS","latitude":48.8466,"longitude":2.36977,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Stade Coubertin","address":"82, Rue Georges Laffont","town":"PARIS","latitude":48.857146,"longitude":2.26284,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Hotel de Ville (2e etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Atelier de Restauration Photographique","address":"10, Rue De Fourcy","town":"PARIS","latitude":48.85495,"longitude":2.3592,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Amelie","address":"164, Rue De Grenelle","town":"PARIS","latitude":48.858002,"longitude":2.30898,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Beaugrenelle","address":"36, Rue Emeriau","town":"PARIS","latitude":48.849998,"longitude":2.28643,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Europe","address":"3, Rue De Lisbonne","town":"PARIS","latitude":48.877819,"longitude":2.31751,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Fessart","address":"6, Rue Fessart","town":"PARIS","latitude":48.876202,"longitude":2.38816,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Georges Brassens","address":"38, Rue Gassendi","town":"PARIS","latitude":48.83374,"longitude":2.32592,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Heure Joyeuse","address":"6, Rue Des Pretres Saint Severin","town":"PARIS","latitude":48.852039,"longitude":2.34513,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Isle Saint Louis","address":"21, Rue Saint Louis En L'Isle","town":"PARIS","latitude":48.851551,"longitude":2.35727,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Lancry","address":"11, Rue De Lancry","town":"PARIS","latitude":48.86935,"longitude":2.36038,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Marguerite Audoux","address":"8-12, Rue Portefoin","town":"PARIS","latitude":48.863602,"longitude":2.36003,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Vandamme","address":"80, Avenue Du Maine","town":"PARIS","latitude":48.838612,"longitude":2.32229,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bourse Du Travail","address":"3, Rue Du Chateau D'Eau","town":"PARIS","latitude":48.86911,"longitude":2.36215,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Espace Beaujon","address":"208, Rue Du Faubourg Saint Honore","town":"PARIS","latitude":48.87532,"longitude":2.30453,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre Sportif Suzanne Lenglen","address":"2, Rue Louis Armand","town":"PARIS","latitude":48.833141,"longitude":2.27663,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Discothèque des Halles","address":"8, Porte Saint Eustache","town":"PARIS","latitude":48.862759,"longitude":2.345275,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Esplanade Des Invalides","address":"1, Rue Paul","town":"PARIS","latitude":48.85249,"longitude":2.36064,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Bataclan","address":"102, Boulevard Richard Lenoir","town":"PARIS","latitude":48.86343,"longitude":2.37178,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin D Eole 1","address":"Rue D Aubervillier","town":"PARIS","latitude":48.89164,"longitude":2.368965,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Gare De Charonne","address":"59, Boulevard Davout","town":"PARIS","latitude":48.852329,"longitude":2.41075,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Hospice Debrousse","address":"148, Rue De Bagnolet","town":"PARIS","latitude":48.862308,"longitude":2.40628,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Casque D'Or","address":"20, Rue Des Haies","town":"PARIS","latitude":48.852741,"longitude":2.40048,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 17E Arrondissement","address":"16, Rue Des Batignolles","town":"PARIS","latitude":48.884251,"longitude":2.32202,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 7E Arrondissement","address":"116, Rue De Grenelle","town":"PARIS","latitude":48.856819,"longitude":2.31999,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 13eme","address":"13, Rue Caillaux","town":"PARIS","latitude":48.82264,"longitude":2.36109,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 14eme","address":"22, Rue Deparcieux","town":"PARIS","latitude":48.835579,"longitude":2.32588,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 18eme","address":"15, Passage Ramey","town":"PARIS","latitude":48.890041,"longitude":2.3474,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 09eme","address":"54, Rue Pigalle","town":"PARIS","latitude":48.88224,"longitude":2.33697,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Champs De Mars","address":"Avenue Charles Risler","town":"PARIS","latitude":48.854603,"longitude":2.300178,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc des Buttes Chaumont (Carrel)","address":"4, Place Armand Carrel","town":"PARIS","latitude":48.88274,"longitude":2.38249,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc des Buttes Chaumont (Fessard)","address":"3, Rue Botzaris","town":"PARIS","latitude":48.878045,"longitude":2.381454,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Georges Brassens (rotonde)","address":"2, Place Jacques Marette","town":"PARIS","latitude":48.832722,"longitude":2.30069,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Montsouris","address":"2, Rue Gazan","town":"PARIS","latitude":48.82452,"longitude":2.33994,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin De La Vallee Suisse","address":"Avenue Edouard Tuck","town":"PARIS","latitude":48.865398,"longitude":2.317336,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Promenade Des Champs Elysees","address":"Avenue Edouard Tuck","town":"PARIS","latitude":48.865398,"longitude":2.317336,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Promenade Plantee","address":"Allee Vivaldi","town":"PARIS","latitude":48.841576,"longitude":2.391099,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square De L'Ave Maria","address":"30, Quai Des Celestins","town":"PARIS","latitude":48.85265,"longitude":2.35964,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Des Batignolles","address":"Place Charles Fillion","town":"PARIS","latitude":48.887608,"longitude":2.317353,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Des Epinettes","address":"Rue Maria Deraismes","town":"PARIS","latitude":48.894337,"longitude":2.32722,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Du Chanoine Viollet","address":"72, Rue Du Moulin Vert","town":"PARIS","latitude":48.831139,"longitude":2.32025,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Edouard Vaillant","address":"Rue Belgrand","town":"PARIS","latitude":48.8647,"longitude":2.40367,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Felix Desruelles","address":"168 Bis, Boulevard Saint Germain","town":"PARIS","latitude":48.853359,"longitude":2.33514,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Ferdinand Brunot","address":"Place Ferdinand Brunot","town":"PARIS","latitude":48.832909,"longitude":2.32645,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Georges Cain","address":"14, Rue Payenne","town":"PARIS","latitude":48.858379,"longitude":2.36256,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Henri Huchard","address":"32, Avenue De La Porte De Saint Ouen","town":"PARIS","latitude":48.8997,"longitude":2.32986,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Julia Bartet","address":"Rue Julia Bartet","town":"PARIS","latitude":48.826363,"longitude":2.303192,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Marcel Mouloudji","address":"2, Rue Pierre Reverdy","town":"PARIS","latitude":48.8853,"longitude":2.37628,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Saint Lambert 1","address":"1, Rue Theophraste Renaudot","town":"PARIS","latitude":48.842766,"longitude":2.295214,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Sainte-Helene","address":"41, Rue Letort.","town":"PARIS","latitude":48.895981,"longitude":2.34342,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Suzanne Buisson","address":"7, Rue Girardon.","town":"PARIS","latitude":48.888034,"longitude":2.337743,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Trinite D'Estienne D'Orves","address":"Rue Blanche","town":"PARIS","latitude":48.87991,"longitude":2.331357,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Picpus","address":"70, Rue De Picpus","town":"PARIS","latitude":48.84259,"longitude":2.39758,"dataset":"ParisData Wifi Hotspots"},
+{"name":"HALLE GEORGES CARPENTIER","address":"81 BLD MASSENA","town":"PARIS","latitude":48.820911,"longitude":2.3682,"dataset":"ParisData Wifi Hotspots"},
+{"name":"MEDIATHEQUE MARGUERITE DURAS","address":"115 RUE DE BAGNOLET","town":"PARIS","latitude":48.859772,"longitude":2.40325,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison Communale du 15 ème","address":"69 RUE VIOLET","town":"PARIS","latitude":48.845638,"longitude":2.29131,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Monceau","address":"1, Place De La Republique Dominicaine","town":"PARIS","latitude":48.873548,"longitude":2.31079,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations du 1er -","address":"5 bis rue du Louvre","town":"PARIS","latitude":48.861839,"longitude":2.34131,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Hotel de Ville (sous-sol et rdc)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parvis De L'Hotel De Ville","address":"9, Place De L'Hotel De Ville","town":"PARIS","latitude":48.857151,"longitude":2.3513,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Antenne Jeune Davout","address":"94, Boulevard Davout","town":"PARIS","latitude":48.856701,"longitude":2.41,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Charlote Delbo","address":"2, Passage Des Petits Peres","town":"PARIS","latitude":48.866459,"longitude":2.34039,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Courcelles","address":"17 Ter, Avenue Beaucour","town":"PARIS","latitude":48.877708,"longitude":2.30313,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Couronnes","address":"66, Rue Des Couronnes","town":"PARIS","latitude":48.8703,"longitude":2.38518,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Crimee","address":"42, Rue Petit","town":"PARIS","latitude":48.88493,"longitude":2.38291,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Port Royal","address":"88 Ter, Boulevard De Port Royal","town":"PARIS","latitude":48.839031,"longitude":2.33915,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Reunion","address":"29-35, Rue Des Haies","town":"PARIS","latitude":48.853119,"longitude":2.40104,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Saint Eloi","address":"23, Rue Du Colonel Rozanoff","town":"PARIS","latitude":48.845532,"longitude":2.38722,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Trocadero","address":"2, Rue Du Commandant Schloesing","town":"PARIS","latitude":48.861839,"longitude":2.28524,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Accueil Kellermann","address":"17, Boulevard Kellermann","town":"PARIS","latitude":48.819801,"longitude":2.35673,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Les Halles Le Marais","address":"6, Place Carree","town":"PARIS","latitude":48.88274,"longitude":2.38249,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Louis Lumiere","address":"46, Rue Louis Lumiere","town":"PARIS","latitude":48.86042,"longitude":2.41127,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Montgallet","address":"4, Passage Stinville","town":"PARIS","latitude":48.844219,"longitude":2.38831,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Hotel D Albret","address":"31, Rue Des Francs Bourgeois","town":"PARIS","latitude":48.857601,"longitude":2.36093,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Catherine Laboure","address":"33, Rue De Babylone","town":"PARIS","latitude":48.851681,"longitude":2.31987,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Cyprian Norwid","address":"36, Rue Du Chevaleret","town":"PARIS","latitude":48.828129,"longitude":2.37666,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Claude Bernard","address":"Boulevard Macdonald","town":"PARIS","latitude":48.898666,"longitude":2.378679,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin De La Promenade Pereire","address":"211, Boulevard Pereire","town":"PARIS","latitude":48.88097,"longitude":2.2902,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Du Ranelagh","address":"Chaussee De La Muette","town":"PARIS","latitude":48.858345,"longitude":2.270875,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Louis Majorelle","address":"24, Rue De La Forge Royale","town":"PARIS","latitude":48.851952,"longitude":2.38078,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Porte De Saint Cloud","address":"20, Avenue Ferdinand Buisson","town":"PARIS","latitude":48.836784,"longitude":2.253456,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Rue Debergue","address":"34 Rue Du Rendez-Vous","town":"PARIS","latitude":48.84568,"longitude":2.40333,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Tino Rossi","address":"8 Quai Saint Bernard","town":"PARIS","latitude":48.847408,"longitude":2.36012,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 15E Arrondissement","address":"31, Rue Peclet","town":"PARIS","latitude":48.841511,"longitude":2.29971,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 16E Arrondissement","address":"71, Avenue Henri Martin","town":"PARIS","latitude":48.86404,"longitude":2.27662,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 19E Arrondissement","address":"5, Place Armand Carrel","town":"PARIS","latitude":48.882622,"longitude":2.38203,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 2E Arrondissement","address":"8, Rue De La Banque","town":"PARIS","latitude":48.866852,"longitude":2.34037,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 5E Arrondissement","address":"21, Place Du Pantheon","town":"PARIS","latitude":48.84623,"longitude":2.344676,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison de Balzac","address":"47, Rue Raynouard","town":"PARIS","latitude":48.855419,"longitude":2.2807,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison de Victor Hugo","address":"6, Place Des Vosges","town":"PARIS","latitude":48.854931,"longitude":2.36615,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 11eme","address":"8, Rue Du General Renault","town":"PARIS","latitude":48.861401,"longitude":2.37835,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 19eme","address":"20, Rue Edouard Pailleron","town":"PARIS","latitude":48.880489,"longitude":2.37645,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 02eme","address":"23, Rue Greneta","town":"PARIS","latitude":48.865162,"longitude":2.35053,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison Du Developpement Economique Du 19eme","address":"27, Rue Du Maroc","town":"PARIS","latitude":48.88702,"longitude":2.3679,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison Initiatives Etudiantes","address":"50, Rue Des Tournelles","town":"PARIS","latitude":48.85622,"longitude":2.3673,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee Carnavalet","address":"23, Rue De Sevigne","town":"PARIS","latitude":48.857029,"longitude":2.36292,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Andre Citroen","address":"Rue De La Montagne De La Fage","town":"PARIS","latitude":48.839214,"longitude":2.276927,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Clichy Batignolles","address":"Rue Cardinet","town":"PARIS","latitude":48.884766,"longitude":2.310258,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Belleville","address":"45, Rue Des Couronnes","town":"PARIS","latitude":48.870258,"longitude":2.38482,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Passy","address":"Avenue Du President Kennedy","town":"PARIS","latitude":48.85379,"longitude":2.282583,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Solarium Josephine Baker","address":"Porte De La Gare","town":"PARIS","latitude":48.832458,"longitude":2.37965,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Solarium Roger Le Gall","address":"34, Boulevard Carnot","town":"PARIS","latitude":48.84211,"longitude":2.41312,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square De La Villa Sainte-Croix","address":"32, Rue De La Jonquiere","town":"PARIS","latitude":48.893539,"longitude":2.32431,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Des Jardiniers","address":"2 Passage Dumas","town":"PARIS","latitude":48.852027,"longitude":2.389877,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Emmanuelle Fleury","address":"Rue Le Vau","town":"PARIS","latitude":48.868038,"longitude":2.410999,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Georges Duhamel","address":"Rue Jean Anouilh","town":"PARIS","latitude":48.831783,"longitude":2.377777,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Jean Aicard","address":"Avenue Jean Aicard","town":"PARIS","latitude":48.865364,"longitude":2.38103,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Leon","address":"Passage Leon","town":"PARIS","latitude":48.885826,"longitude":2.353192,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Leopold Achille","address":"13-13Bis, Rue Payenne","town":"PARIS","latitude":48.858349,"longitude":2.36253,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Louis Xiii","address":"30 Place Des Vosges","town":"PARIS","latitude":48.856159,"longitude":2.36595,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Montholon","address":"Rue La Fayette","town":"PARIS","latitude":48.875153,"longitude":2.341068,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Orillon Jules Vernes","address":"19 Bis, Rue De L'Orillon","town":"PARIS","latitude":48.869862,"longitude":2.37514,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Rene Viviani","address":"Rue Lagrange","town":"PARIS","latitude":48.851162,"longitude":2.34807,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Blomet","address":"43 Rue Blomet","town":"PARIS","latitude":48.8425,"longitude":2.305323,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Saint Lambert 2","address":"1, Rue Theophraste Renaudot","town":"PARIS","latitude":48.842766,"longitude":2.295214,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Samuel Champlain","address":"9, Avenue Gambetta","town":"PARIS","latitude":48.86343,"longitude":2.38962,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Serment De Koufra","address":"Avenue Ernest Reyer","town":"PARIS","latitude":48.823002,"longitude":2.321349,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Archives de Paris","address":"18, Boulevard Serurier","town":"PARIS","latitude":48.87785,"longitude":2.40572,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Diderot","address":"42, Rue Daumesnil","town":"PARIS","latitude":48.846088,"longitude":2.37785,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Flandre","address":"35, Rue De Flandre","town":"PARIS","latitude":48.886188,"longitude":2.3711,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Forney","address":"1, Rue Du Figuier","town":"PARIS","latitude":48.85347,"longitude":2.3593,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Glaciere","address":"132, Rue De La Glaciere","town":"PARIS","latitude":48.827278,"longitude":2.34215,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Goutte D'Or","address":"2, Rue Fleury","town":"PARIS","latitude":48.884369,"longitude":2.35408,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Herge","address":"2, Rue Du Departement","town":"PARIS","latitude":48.88496,"longitude":2.36717,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Mouffetard","address":"74, Rue Mouffetard","town":"PARIS","latitude":48.842499,"longitude":2.34971,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Place Des Fetes","address":"18, Rue Janssen","town":"PARIS","latitude":48.879292,"longitude":2.39763,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Bibliothèque Saint Simon","address":"116, Rue De Grenelle","town":"PARIS","latitude":48.856819,"longitude":2.31999,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Daviel","address":"24, Rue Daviel","town":"PARIS","latitude":48.828098,"longitude":2.34484,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Centre d'Animation Jean Mathis","address":"15, Rue Mathis","town":"PARIS","latitude":48.890869,"longitude":2.37508,"dataset":"ParisData Wifi Hotspots"},
+{"name":"E.C.A Rive Gauche","address":"24, Rue Des Ecoles","town":"PARIS","latitude":48.848751,"longitude":2.348,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Espace Economie Emploi Du 14eme","address":"13, Rue Remy Dumoncel","town":"PARIS","latitude":48.829739,"longitude":2.33237,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Cite Prost","address":"17 Rue Titon","town":"PARIS","latitude":48.851879,"longitude":2.38638,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Des Amandiers","address":"Rue Des Cendriers","town":"PARIS","latitude":48.865696,"longitude":2.387367,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Du Trocadero","address":"1, Place Du Onze Novembre 1918","town":"PARIS","latitude":48.87599,"longitude":2.35926,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Jardin Porte De Chatillon","address":"16-26, Rue De Chatillon","town":"PARIS","latitude":48.82753,"longitude":2.32335,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 10E Arrondissement","address":"72, Rue Du Faubourg Saint Martin","town":"PARIS","latitude":48.871818,"longitude":2.35722,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 11E Arrondissement","address":"Place Leon Blum","town":"PARIS","latitude":48.858356,"longitude":2.379501,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 12E Arrondissement","address":"130, Avenue Daumesnil","town":"PARIS","latitude":48.841259,"longitude":2.3884,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 18E Arrondissement","address":"1, Place Jules Joffrin","town":"PARIS","latitude":48.892448,"longitude":2.34473,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 20E Arrondissement","address":"6, Place Gambetta","town":"PARIS","latitude":48.865002,"longitude":2.39878,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 3E Arrondissement","address":"2, Rue Eugene Spuller","town":"PARIS","latitude":48.864029,"longitude":2.36144,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Mairie du 4E Arrondissement","address":"2, Place Baudoyer","town":"PARIS","latitude":48.856209,"longitude":2.35543,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison Du Developpement Economique Du 20eme","address":"31, Rue De Pixerecourt","town":"PARIS","latitude":48.871929,"longitude":2.39583,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Musee Antoine Bourdelle","address":"16, Rue Antoine Bourdelle","town":"PARIS","latitude":48.842949,"longitude":2.31886,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Andre Citroen","address":"5, Rue De La Montagne De La Fage","town":"PARIS","latitude":48.840069,"longitude":2.27742,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Bercy (orangerie)","address":"1, Cour Chamonard","town":"PARIS","latitude":48.835124,"longitude":2.41756,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc de Choisy","address":"160, Avenue De Choisy","town":"PARIS","latitude":48.828659,"longitude":2.35795,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc des Buttes Chaumont (Bolivar)","address":"1, Rue Botzaris","town":"PARIS","latitude":48.876972,"longitude":2.38117,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc des Buttes Chaumont","address":"74, Rue Botzaris","town":"PARIS","latitude":48.879532,"longitude":2.38847,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Parc Kellermann","address":"3, Rue De La Poterne Des Peupliers","town":"PARIS","latitude":48.820518,"longitude":2.35266,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Alleray Labrouste","address":"92, Rue D'Alleray","town":"PARIS","latitude":48.83633,"longitude":2.3087,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Aspirant Dunand","address":"Rue Mouton Duvernet","town":"PARIS","latitude":48.832031,"longitude":2.327424,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Breguet Sabin","address":"25, Boulevard Richard Lenoir","town":"PARIS","latitude":48.85706,"longitude":2.37062,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square La Petite Roquette","address":"4, Rue Servan","town":"PARIS","latitude":48.8591,"longitude":2.38409,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Ozanam","address":"Boulevard Du Montparnasse","town":"PARIS","latitude":48.845009,"longitude":2.320318,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Paul Langevin","address":"20 Rue Monge","town":"PARIS","latitude":48.848438,"longitude":2.3502,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Rene Legall","address":"43, Rue Corvisart","town":"PARIS","latitude":48.831082,"longitude":2.348069,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Saint Eloi","address":"15, Rue Sainte Claire Deville","town":"PARIS","latitude":48.844212,"longitude":2.38748,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Saint Medard","address":"32 Rue Censier","town":"PARIS","latitude":48.839653,"longitude":2.350873,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Sarah Berhnardt","address":"Rue De Lagny","town":"PARIS","latitude":48.84898,"longitude":2.407761,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Square Violet","address":"Place Violet","town":"PARIS","latitude":48.844677,"longitude":2.290432,"dataset":"ParisData Wifi Hotspots"},
+{"name":"Maison des Associations Du 17eme","address":"25, Rue Lantiez","town":"PARIS","latitude":48.895012,"longitude":2.3238,"dataset":"ParisData Wifi Hotspots"},
+{"name":"TOUR ST JACQUES","address":"88 RUE DE RIVOLI","town":"PARIS","latitude":48.85815,"longitude":2.34929,"dataset":"ParisData Wifi Hotspots"},
+{"name":"PISCINE GEORGES VALLEREY","address":"148 AVENUE GAMBETTA","town":"PARIS","latitude":48.875439,"longitude":2.40584,"dataset":"ParisData Wifi Hotspots"},
+{"name":"MAISON DES INITIATIVES","address":"3 RUE JEAN ANTOINE DE BAIF","town":"PARIS","latitude":48.827862,"longitude":2.38436,"dataset":"ParisData Wifi Hotspots"}]
