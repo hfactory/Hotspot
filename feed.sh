@@ -27,7 +27,7 @@ fi
 "$REST_SH" $server
 
 #Split the file in dataset and points
-awk -v RS="__DATASET_END__" '{ print $0 > "__feed_tmp" NR }' $datafile
+awk -v RS="" -v FS="__DATASET_END__" '{ print $1 > "__feed_tmp1"; print $2 > "__feed_tmp2" }' $datafile
 # Feed the dataset description.
 "$REST_SH" POST /Hotspot/dataset __feed_tmp1
 
