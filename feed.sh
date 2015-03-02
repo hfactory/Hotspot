@@ -30,13 +30,18 @@ fi
 
 "$REST_SH" $server
 
+function cleanup {
+  rm __feed_tmp >/dev/null 2>&1
+}
+
+trap cleanup EXIT
+
 # Feed the dataset description.
 echo "{ \"name\": \"${dataset}\", \"url\": \"${dataset_url}\" }" > __feed_tmp
-"$REST_SH" POST /Hotspot/dataset __feed_tmp
+"$REST_SH" POST /Hotspot/dataset __feed_tmp || exit 1
 
 # Feed the data points.
 cat "$datafile" | while read e; do
     echo $e > __feed_tmp
-    "$REST_SH" POST /Hotspot/hotspot __feed_tmp
+    "$REST_SH" POST /Hotspot/hotspot __feed_tmp || exit 1
 done
-rm __feed_tmp
