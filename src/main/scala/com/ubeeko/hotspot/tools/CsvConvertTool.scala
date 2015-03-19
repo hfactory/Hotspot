@@ -49,6 +49,14 @@ object CsvConvertTool {
       """.stripMargin)
   }
 
+  def formatLines(lines: Iterator[String]) = {
+    val fields =  lines map parseCsvLine
+    // The drop() skips the header line.
+    fields.drop(1) map { fields =>
+      csvLineToJson(fields)
+    }
+  }
+
   def main(args: Array[String]): Unit = {
     if (args.contains("-h") || args.contains("--help")) {
       printUsage()
@@ -61,11 +69,7 @@ object CsvConvertTool {
     }
 
     val fileName = args(0)
-    val csvLines = scala.io.Source.fromFile(fileName).getLines map parseCsvLine
-    // The drop() skips the header line.
-    csvLines.drop(1) foreach { fields =>
-      val json = csvLineToJson(fields)
-      println(compact(render(json)))
-    }
+    val csvLines = scala.io.Source.fromFile(fileName).getLines
+    println(compact(render(JArray(formatLines(csvLines).toList))))
   }
 }
