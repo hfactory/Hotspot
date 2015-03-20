@@ -7,19 +7,15 @@ angular.module('${app}').factory('${entity}Service', function($rootScope, $log, 
   service.data = _([]);
   var initialization = $q.defer();
 
-<#if entity == "hotspot">
   service.init = function() {
       $log.debug('Init ${entity}Service');
+<#if entity == "hotspot">
       // Do not use whenReady for hotspot since the loading is not done during initialization
       initialization.resolve();
   };
 
   service.initData = function(datasetName) {
-<#else>
-  service.init = function() {
-      $log.debug('Init ${entity}Service');
 </#if>
-      
       var validated = _([]);
       // Return the promise for chaining actions after the loading
       var promise;
