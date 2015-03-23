@@ -15,10 +15,17 @@ angular.module('${app}')
         $scope.hotspotRef = entitiesService.data['hotspot'];
         
       	$scope.loadData = function(set) {
-        hotspotSource.clear();
+          hotspotSource.clear();
       	  if (set) {
-      	    $scope.datasetName = set;
-            var promise = hotspotService.initData(set);
+      	    // Update map : center on dataset provided location
+      	    currentLng = set.fields.longitude;
+            currentLat = set.fields.latitude;
+      	    map.getView().setZoom(13);
+            map.getView().setCenter(ol.proj.transform([currentLng, currentLat], 'EPSG:4326', 'EPSG:3857'));
+            updateSelectedPosition(currentLng, currentLat);
+            
+      	    $scope.datasetName = set.fields.name;
+            var promise = hotspotService.initData(set.fields.name);
             promise.then(function(data) {
               addAllHotspots(data);
             });
@@ -41,11 +48,24 @@ angular.module('${app}')
             })
         });
 
-        var positionStyle = new ol.style.Style({
+        var selectedPositionStyle = new ol.style.Style({
             image: new ol.style.Circle({
                 radius: 7,
                 fill: new ol.style.Fill({
                     color: red
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#ffffff',
+                    width: 2
+                })
+            })
+        });
+        
+        var userPositionStyle = new ol.style.Style({
+            image: new ol.style.Circle({
+                radius: 7,
+                fill: new ol.style.Fill({
+                    color: orange
                 }),
                 stroke: new ol.style.Stroke({
                     color: '#ffffff',
@@ -94,15 +114,21 @@ angular.module('${app}')
         }
         
         var hotspotSource = new ol.source.Vector();
-        var positionSource = new ol.source.Vector();
+        var selectedPositionSource = new ol.source.Vector();
+        var userPositionSource = new ol.source.Vector();
         
         var hotspotLayer = new ol.layer.Vector({
             source: hotspotSource,
             style: hotspotStyle
         });
         
-        var positionLayer = new ol.layer.Vector({
-            source: positionSource
+        var selectedPositionLayer = new ol.layer.Vector({
+            source: selectedPositionSource
+            //style: positionStyle
+        });
+        
+        var userPositionLayer = new ol.layer.Vector({
+            source: userPositionSource
             //style: positionStyle
         });
         
@@ -114,19 +140,49 @@ angular.module('${app}')
         var parisLng = 2.3488000,
             parisLat = 48.8534100;
         
+        var parisView = new ol.View({
+            center: ol.proj.transform([parisLng, parisLat], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 13
+        });
+                
         var currentLng   = parisLng,
             currentLat   = parisLat;
+        
         $scope.currentCount = 10;
         
+        // By default, we show a world map
         var map = new ol.Map({
             target: 'map',
-            layers: [ planLayer, positionLayer, hotspotLayer ],
+            layers: [ planLayer, selectedPositionLayer, userPositionLayer, hotspotLayer ],
             view: new ol.View({
-                center: ol.proj.transform([parisLng, parisLat], 'EPSG:4326', 'EPSG:3857'),
-                zoom: 13
-            })
+                center: [0, 0],
+                zoom: 2
+            }) 
         });
-          
+        
+        var geolocation = new ol.Geolocation({
+            tracking: true, 
+            projection: map.getView().getProjection()
+        });
+        
+        // In case of error, center the map on Paris
+        geolocation.on('error', function(error) {
+            map.setView(parisView);
+            currentLng = parisLng;
+            currentLat = parisLat;
+            updateSelectedPosition(currentLng, currentLat);
+        });
+        
+        geolocation.on('change', function(evt) {
+            var pos = geolocation.getPosition();
+            map.getView().setZoom(13);
+            map.getView().setCenter(pos);
+            geolocation.setTracking(false);
+            
+            var lng_lat = ol.proj.transform(pos, 'EPSG:3857', 'EPSG:4326');
+            updateUserPosition(lng_lat[0], lng_lat[1]);
+        });
+         
         var info = angular.element(document.querySelector('#info'));
         info.tooltip({
             animation: false,
@@ -155,26 +211,37 @@ angular.module('${app}')
             displayFeatureInfo(map.getEventPixel(evt.originalEvent));
         });
               
-        var positionFeature = null;
+        var selectedPositionFeature = null;
+        var userPositionFeature = null;
         
-        function updatePosition(lng, lat) {
+        function updateSelectedPosition(lng, lat) {
+            selectedPositionFeature = updatePosition(lng, lat, selectedPositionFeature, selectedPositionSource, selectedPositionStyle, "Selected Position");
+        }
+        
+        function updateUserPosition(lng, lat) {
+            userPositionFeature = updatePosition(lng, lat, userPositionFeature, userPositionSource, userPositionStyle, "Your Position");
+        }
+        
+        function updatePosition(lng, lat, positionFeature, positionSource, positionStyle, positionName) {
             if (positionFeature) {
                 positionSource.removeFeature(positionFeature);
             }
             positionFeature = new ol.Feature({
                 geometry: makePoint(lng, lat),
-                name: "Current Position"
+                name: positionName
             });
             positionFeature.setStyle(positionStyle);
             positionSource.addFeature(positionFeature);
+            
+            return positionFeature;
         }
-                
+        
         $scope.mapClicked = function(ev) {
             var loc = map.getEventCoordinate(ev),
                 lng_lat = ol.proj.transform(loc, 'EPSG:3857', 'EPSG:4326');
             currentLng = lng_lat[0];
             currentLat = lng_lat[1];
-            updatePosition(currentLng, currentLat);
+            updateSelectedPosition(currentLng, currentLat);
             getClosest($scope.datasetName, currentLng, currentLat, $scope.currentCount);
         }
 
@@ -187,7 +254,7 @@ angular.module('${app}')
           }
         };
 
-        updatePosition(currentLng, currentLat);
+        updateSelectedPosition(currentLng, currentLat);
         // Put the datasets in scope when ready to display the Menu
         datasetService.whenReady(function() {
           $scope.datasets = datasetService.data.value();

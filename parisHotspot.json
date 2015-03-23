@@ -1,4 +1,4 @@
-{"name":"ParisData Wifi Hotspots","url":"http://parisdata.opendatasoft.com/explore/dataset/liste_des_sites_des_hotspots_paris_wifi/download/?format=json&timezone=Europe/Berlin"}
+{"name":"ParisData Wifi Hotspots","url":"http://parisdata.opendatasoft.com/explore/dataset/liste_des_sites_des_hotspots_paris_wifi/download/?format=json&timezone=Europe/Berlin","latitude":48.8534100,"longitude":2.3488000}
 __DATASET_END__
 [{"name":"Hotel de Ville (3eme etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
 {"name":"Hotel de Ville (4e etage)","address":"4, Place De L'Hotel De Ville","town":"PARIS","latitude":48.85694,"longitude":2.35212,"dataset":"ParisData Wifi Hotspots"},
