@@ -17,5 +17,7 @@ package com.ubeeko.hotspot.data
 
 case class Dataset(
   name: String,
-  url : String
+  url : String,
+  latitude : Double,
+  longitude: Double
 )

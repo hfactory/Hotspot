@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# XXX Hack until we have proper importation of geoJSON datasets.
-dataset="ParisData Wifi Hotspots"
-dataset_url="http://parisdata.opendatasoft.com/explore/dataset/liste_des_sites_des_hotspots_paris_wifi/download/?format=json&timezone=Europe/Berlin"
-
 defaultfile="parisHotspot.json"
 datafile=$1
 server=$2
@@ -36,12 +32,11 @@ function cleanup {
 
 trap cleanup EXIT
 
+#Split the file in dataset and points
+awk -v RS="" -v FS="__DATASET_END__" '{ print $1 > "__feed_tmp1"; print $2 > "__feed_tmp2" }' $datafile
 # Feed the dataset description.
-echo "{ \"name\": \"${dataset}\", \"url\": \"${dataset_url}\" }" > __feed_tmp
-"$REST_SH" POST /Hotspot/dataset __feed_tmp || exit 1
+"$REST_SH" POST /Hotspot/dataset __feed_tmp1
 
 # Feed the data points.
-cat "$datafile" | while read e; do
-    echo $e > __feed_tmp
-    "$REST_SH" POST /Hotspot/hotspot __feed_tmp || exit 1
-done
+"$REST_SH" POST /Hotspot/hotspot __feed_tmp2
+

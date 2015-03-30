@@ -10,7 +10,7 @@ angular.module('${app}', [
   RestangularProvider.setBaseUrl('/${app}/');
 })
 
-.factory('loadingService', function($rootScope, $log, entitiesService, ${entities_services}) {
+.factory('loadingService', function($log, entitiesService, ${entities_services}) {
 
   var service = {};
   service.services = _([entitiesService , ${entities_services}]);
@@ -26,7 +26,7 @@ angular.module('${app}', [
 
 })
 
-.run( function( $rootScope, $log, $locale, i18nService, loadingService, Restangular) {
+.run( function($log, $locale, i18nService, loadingService, Restangular) {
 
   console.log('Starting ...');
   

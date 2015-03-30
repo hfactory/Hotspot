@@ -14,9 +14,10 @@
 
     <!-- basic styles -->
 
-    <link href="styles/form.min.css" rel="stylesheet" />
-    <link href="styles/table.min.css" rel="stylesheet" />
-    <link href="styles/main.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/semantic.min.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/paris-style.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="http://openlayers.org/en/v3.0.0/css/ol.css" type="text/css">
     <script src="http://openlayers.org/en/v3.0.0/build/ol.js" type="text/javascript"></script>
@@ -32,26 +33,13 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <div class="menu">
-      <ul>
-        <li>
-          <a ui-sref="hotspot" >Hotspots listing</a></li>
-        <li>
-          <a ui-sref="map" >Hotspots map</a>
-        </li>
-        <li>
-          <a ui-sref="hotspot_add" >Add a hotspot</a>
-        </li>
-      </ul>
-    </div><!-- menu -->
-
-    <div class="main-container">
-          <!-- PAGE CONTENT BEGINS -->
-
-          <div ui-view></div>
-
-          <!-- PAGE CONTENT ENDS -->
-    </div><!-- /.main-container -->
+    <div id="main-menu-container">
+        <div id="menu-button" class="ui icon button">
+            <i class="content icon"></i>
+            <span class="text">Menu</span>
+        </div>
+    </div>
+    <div ui-view></div>
 
     <!-- basic scripts -->
 
@@ -59,7 +47,9 @@
 
     <script src="bower_components/lodash/dist/lodash.js"></script>
     <script src="bower_components/jquery/jquery.min.js"></script>
-
+    
+    <script src="bower_components/bootstrap/bootstrap.min.js"></script>
+    
     <script src="bower_components/angular/angular.js"></script>
 
     <!-- build:js scripts/modules.js -->
@@ -81,5 +71,7 @@
     <script src="scripts/data/${entity}-service.js"></script>
     </#list>
 
+    <script src="js/semantic.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

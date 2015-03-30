@@ -1,16 +1,42 @@
-<div class="wifi-map">
-    <h1>Paris Wifi Hotspots</h1>
-    <div id="map" class="map" ng-click="mapClicked($event)" ng-right-click></div>
+<div class="ui floating sidebar vertical menu">
+    <div ng-repeat="set in datasets">
+      <a ng-click='loadData(set)' class="item">{{set.fields.name}}</a>
+    </div>
+</div>
+
+<div class="main-container">
+  <div class="content-container">
+    <h1>{{datasetName}}</h1>
+    <div id="map" class="map" ng-click="mapClicked($event)" ng-right-click><div id="info"></div></div>
     <div id="form_area">
         <div id="search_form" class="ui form">
             <form class="inline field" name="search" ng-submit="submit($event)">
-                <label for="">Number of hotspots displayed</label>
+                <label for="">Maximum number of nearby hotspots displayed</label>
                 <input type="text" id="count" ng-model="currentCount" />
             </form>
         </div>
     </div>
-</div>
+    <div ng-if="closests">
+      <h3>Closest points</h3>
+      <table class="ui table">
+          <thead>
+              <tr>
+                  <th ng-repeat="field in closests.fieldNames">{{i18n.field(hotspotRef.entity,field)}}</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr ng-repeat="entry in closests.points">
+                  <td ng-repeat="field in closests.fieldNames">
+                      {{entry[field]}}
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
 
-<footer>
-    Source: Dataset imported from <a href="http://opendata.paris.fr/">ParisData</a>.
-</footer>
+  <footer>
+    Source: Dataset imported from <a href="http://opendata.paris.fr/">ParisData</a> and <a href="http://openstreetmap.org/">Open Street Map</a>.
+  </footer>
+</div><!-- /.main-container -->
+  
