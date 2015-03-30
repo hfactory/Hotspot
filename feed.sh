@@ -27,7 +27,7 @@ fi
 "$REST_SH" $server
 
 function cleanup {
-  rm __feed_tmp >/dev/null 2>&1
+  rm __feed_tmp[12] >/dev/null 2>&1
 }
 
 trap cleanup EXIT
