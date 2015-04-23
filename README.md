@@ -27,3 +27,7 @@ And you are ready to go.
 For displaying the results this project uses [OpenLayers](http://www.openlayers.org/) and [OpenStreetMap](http://www.openstreetmap.org/)
 
 parisHotspot.json was converted from [Open Data Paris data](http://opendata.paris.fr/) and are under the following [license](http://opendata2.paris.fr/opendata/document?id=78&id_attribute=48)
+
+shopHannover.json was converted from [Open Street Map](http://www.openstreetmap.org) and queried through [Overpass turbo](http://overpass-turbo.eu/s/8eS). The data is made available under [ODbL](http://opendatacommons.org/licenses/odbl/).
+
+parisHotspot.json was converted from [Open Street Map](http://www.openstreetmap.org) and queried through [Overpass turbo](http://overpass-turbo.eu/s/8ff). The data is made available under [ODbL](http://opendatacommons.org/licenses/odbl/).

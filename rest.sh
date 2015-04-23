@@ -99,7 +99,7 @@ if [ -n "$REST_DEBUG" ]; then
     echo "datafile: $datafile"
 fi
 
-curl --silent --show-error \
+curl -4 --silent --show-error \
      --dump-header $RESPONSE_HEADER_FILE \
      -X $method \
      -H 'Accept: application/json' \
@@ -110,6 +110,10 @@ curl --silent --show-error \
      $host$path > $RESPONSE_BODY_FILE \
  && cat $RESPONSE_HEADER_FILE $RESPONSE_BODY_FILE
 
+r=$?
+
 # Ensures the output ends with a newline.
 echo
+
+[ -n $r ] && exit $r
 

@@ -26,6 +26,12 @@ fi
 
 "$REST_SH" $server
 
+function cleanup {
+  rm __feed_tmp[12] >/dev/null 2>&1
+}
+
+trap cleanup EXIT
+
 #Split the file in dataset and points
 awk -v RS="" -v FS="__DATASET_END__" '{ print $1 > "__feed_tmp1"; print $2 > "__feed_tmp2" }' $datafile
 # Feed the dataset description.
@@ -33,4 +39,4 @@ awk -v RS="" -v FS="__DATASET_END__" '{ print $1 > "__feed_tmp1"; print $2 > "__
 
 # Feed the data points.
 "$REST_SH" POST /Hotspot/hotspot __feed_tmp2
-rm __feed_tmp[12]
+
