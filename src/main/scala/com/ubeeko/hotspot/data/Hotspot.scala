@@ -19,8 +19,8 @@ import ch.hsr.geohash.GeoHash
 
 import com.typesafe.scalalogging.slf4j.Logging
 
-import com.ubeeko.conversions.{ToString, FromString}
-import com.ubeeko.htalk.hbase.{ToBytes, FromBytes}
+import com.ubeeko.stringconv._
+import com.ubeeko.htalk.bytesconv._
 
 // A wifi hotspot entity.
 case class Hotspot(
@@ -39,22 +39,13 @@ object Hotspot extends Logging {
   def geoHash(latitude: Double, longitude: Double, precision: Int = 12): GeoHash =
     GeoHash.withCharacterPrecision(latitude, longitude, precision)
 
-  implicit object GeoHashFromString extends FromString[GeoHash] {
+  implicit object GeoHashStringConv extends StringConv[GeoHash] {
     def fromString(s: String): GeoHash = GeoHash.fromGeohashString(s)
-  }
-
-  implicit object GeoHashToString extends ToString[GeoHash] {
     override def toString(x: GeoHash): String = x.toBase32
   }
 
-  implicit object GeoHashFromBytes extends FromBytes[GeoHash] {
-    def fromBytes(b: Array[Byte]): GeoHash = {
-      val s = implicitly[FromBytes[String]].apply(b)
-      implicitly[FromString[GeoHash]].apply(s)
-    }
-  }
-
-  implicit object GeoHashToBytes extends ToBytes[GeoHash] {
-    def toBytes(h: GeoHash): Array[Byte] = implicitly[ToBytes[String]].apply(h.toBase32)
+  implicit object GeoHashBytesConv extends BytesConv[GeoHash] {
+    def fromBytes(b: Array[Byte]): GeoHash = stringTo[GeoHash](bytesTo[String](b))
+    def toBytes(h: GeoHash): Array[Byte] = bytesFrom[String](stringFrom[GeoHash](h))
   }
 }

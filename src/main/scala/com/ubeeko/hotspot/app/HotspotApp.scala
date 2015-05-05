@@ -22,7 +22,7 @@ import com.ubeeko.hfactory.entities._
 
 import com.ubeeko.hotspot.data.{Dataset, Hotspot}
 import com.ubeeko.hfactory.app.annotations.HAppController
-import com.ubeeko.htalk.hbase.ToBytes
+import com.ubeeko.htalk.bytesconv._
 
 import java.awt.geom.Point2D
 
@@ -37,7 +37,7 @@ class HotspotRegistry extends HEntityRegistry {
 }
 
 class HotspotApp extends HApp {
-  val hotspotEntity = entityRegistry.getEntity[Hotspot].get
+  val hotspotEntity = entityRegistry.getEntity[Hotspot]
 
   /**
    * Get the hotspots from a data set
@@ -58,10 +58,10 @@ class HotspotApp extends HApp {
     def distanceToOrigin(hotspot: Hotspot): Double = origin.distanceSq(hotspot.latitude, hotspot.longitude)
 
     def takeClosest(prefix: GeoHash): List[Hotspot] = {
-      val prefixBytes = implicitly[ToBytes[GeoHash]].apply(prefix)
+      val prefixBytes = bytesFrom[GeoHash](prefix)
       val locs = hotspots(datasetName)
       val candidates = locs.toList.filter { c =>
-        val rkBytes = implicitly[ToBytes[GeoHash]].apply(c.rowKey)
+        val rkBytes = bytesFrom[GeoHash](c.rowKey)
         rkBytes.startsWith(prefixBytes)
       }.sortBy(distanceToOrigin).take(count)
       println(s"IO.list with prefix ${prefix.toBase32} returned ${candidates.length} candidates: $candidates")
