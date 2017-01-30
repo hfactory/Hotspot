@@ -35,8 +35,8 @@ trap cleanup EXIT
 #Split the file in dataset and points
 awk -v RS="" -v FS="__DATASET_END__" '{ print $1 > "__feed_tmp1"; print $2 > "__feed_tmp2" }' $datafile
 # Feed the dataset description.
-"$REST_SH" POST /Hotspot/dataset __feed_tmp1
+"$REST_SH" POST /Hotspot/Dataset __feed_tmp1
 
 # Feed the data points.
-"$REST_SH" POST /Hotspot/hotspot __feed_tmp2
+"$REST_SH" POST /Hotspot/Hotspot __feed_tmp2
 

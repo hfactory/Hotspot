@@ -1,19 +1,19 @@
 'use strict';
 
-angular.module('${app}', [
+angular.module('Hotspot', [
   'restangular',
   'ngRoute',
   'ui.router'
 ])
 
 .config(function(RestangularProvider) {
-  RestangularProvider.setBaseUrl('/${app}/');
+  RestangularProvider.setBaseUrl('/Hotspot/');
 })
 
-.factory('loadingService', function($log, entitiesService, ${entities_services}) {
+.factory('loadingService', function($log, entitiesService, datasetService, hotspotService) {
 
   var service = {};
-  service.services = _([entitiesService , ${entities_services}]);
+  service.services = _([entitiesService , datasetService, hotspotService]);
 
   service.start = function () {
     $log.debug('Starting loadingService');

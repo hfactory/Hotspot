@@ -1,11 +1,13 @@
 Hotspot
 ========
 
-This project should be used inside the [HFactory Studio VM](http://hfactory.io/download.html#studio).
-
-Place the project in the workspace folder and import it with Eclipse.
+This project should be compiled with sbt or a sbt compatible IDE
 
 To have the app running:
+- Create the assembly with `sbt assembly`.
+- Use `./local-install.sh` with your app folder to install the jar.
+- Create the `Hotspot.conf` file in the conf folder of your app use the example at the root of the project.
+- Copy the file in your apps folder (`/var/hfactory/apps` in the Azure HFactory Tools Sandbox). Use hfactory-env.sh putApp if you use the docker-machine script.
 - Start HBase
 - Start the HFactory server
 - Create the tables through the administration page of the server
@@ -19,8 +21,6 @@ You can specify another data file and a different host and port with the followi
 ```
 ./feed.sh json_file http://host:port
 ```
-
-See the [documentation of the HFactory Studio](http://hfactory.io/doc.html) for more information.
 
 And you are ready to go.
 

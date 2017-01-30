@@ -1,4 +1,4 @@
-angular.module('${app}').factory('i18nService', function($rootScope, $log, Restangular) {
+angular.module('Hotspot').factory('i18nService', function($rootScope, $log, Restangular) {
 
   var service = {};
 

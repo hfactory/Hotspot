@@ -1,4 +1,4 @@
-angular.module('${app}').factory('entitiesService', function($rootScope, $log, Restangular) {
+angular.module('Hotspot').factory('entitiesService', function($rootScope, $log, Restangular) {
 
   var service = {};
 
@@ -27,7 +27,7 @@ angular.module('${app}').factory('entitiesService', function($rootScope, $log, R
 
 })
 
-angular.module('${app}')
+angular.module('Hotspot')
   .controller('entitiesCtrl', function ($scope, entitiesService) {
     $scope.entities = entitiesService.data;
   });

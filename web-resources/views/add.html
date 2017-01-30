@@ -1,0 +1,27 @@
+ <div class="content-container">
+        <h1>Paris Wifi Hotspots</h1>
+         <div class="add-entry">
+          
+
+
+    <form class="ui fluid form segment" role="form" ng-init="control={message:''}">
+
+        <div class="form-group field" ng-repeat="field in reference.fields">
+            <label class="control-label" for="form-field-{{field.name}}">{{i18n.field(reference.entity,field.name)}}&nbsp;</label>
+            <input type="text" id="form-field-{{field.name}}" ng-change="control.message=''" ng-model="entity[field.name]" class="">
+        </div>
+        
+        <div class="control-label" />
+        <div class="ui submit button" ng-click="add(entity, control)">Add</div>
+        <div class="control-group" ng-class="control.class">
+            <div class="control-label" />
+            <label>{{control.message}}</label>
+        </div>
+    </form>
+
+</div>
+</div>
+
+<footer>
+    Source: Dataset imported from <a href="http://opendata.paris.fr/">ParisData</a>.
+</footer>

@@ -21,10 +21,15 @@ import com.ubeeko.hfactory.app.HApp
 import com.ubeeko.hfactory.entities._
 
 import com.ubeeko.hotspot.data.{Dataset, Hotspot}
+import com.ubeeko.hfactory.annotations.DescriptionAnnotation
 import com.ubeeko.hfactory.app.annotations.HAppController
 import com.ubeeko.htalk.bytesconv._
+import com.ubeeko.jsonconv._
+import com.ubeeko.stringconv.StringConv
 
 import java.awt.geom.Point2D
+
+import scala.annotation.meta.field
 
 // This brings the {To,From}Bytes and {To,From}String instances
 // for GeoHash in scope. Needed for the implicit generation of
@@ -50,7 +55,10 @@ class HotspotApp extends HApp {
   // <http://munro-bagging.googlecode.com/svn/tags/MunroBagging_v4/Data%20Generator/src/ch/hsr/geohash/queries/GeoHashCircleQuery.java>
   // Use WGS84Point in haversine formula?
 
-  @HAppController
+  @HAppController(
+    httpMethod  = "GET",
+    description = "Get the closest points to the given position in the dataset and limit to count responses."
+  )
   def getClosest(datasetName: String, lat: Double, long: Double, count: Int): List[Hotspot] = {
     val target = Hotspot.geoHash(lat, long, 6) // 6 chars only as we want a prefix, not a full hash (12 chars).
 
@@ -73,12 +81,18 @@ class HotspotApp extends HApp {
     results.sortBy(distanceToOrigin).take(count)
   }
 
+  case class HotspotJSON(
+    @(DescriptionAnnotation @field)("Rowkey") rowkey: GeoHash,
+    @(DescriptionAnnotation @field)("Fields") fields: Hotspot)
+
   /**
    * Return a JSON with the rowkey and the fields to have the same behavior
    * than retrieving the whole list
    */ 
-  case class HotspotJSON(rowkey: GeoHash, fields: Hotspot)
-  @HAppController
+  @HAppController(
+    httpMethod="GET",
+    description="Get the hotspots for a dataset"
+  )
   def filteredHotspot(datasetName: String): Iterable[HotspotJSON] = {
     hotspots(datasetName).map { hotspot =>
       HotspotJSON(hotspot.rowKey, hotspot)

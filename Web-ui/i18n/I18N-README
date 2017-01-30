@@ -1,5 +1,0 @@
-Files will be auto generated only if they do not exist.
-If you want to update, save your files elsewhere and rebuild
- the project.
- 
- Create one directory per language needed use the two character format (en, fr, de, etc ...).

@@ -1,9 +1,0 @@
-{
-  "dataset":{
-    "label":"Dataset",
-    "fields":{
-      "name":"Name",
-      "url":"Url"
-    }
-  }
-}

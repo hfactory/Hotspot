@@ -1,9 +1,0 @@
-{
-  "dataset":{
-    "label":"Jeu de données",
-    "fields":{
-      "name":"Nom",
-      "url":"Url"
-    }
-  }
-}
