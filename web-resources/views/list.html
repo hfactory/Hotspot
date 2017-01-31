@@ -1,0 +1,22 @@
+<div class="content-container">
+       <h1>Paris Wifi Hotspots</h1>
+    <table class="ui table">
+        <thead>
+            <tr>
+                <th ng-repeat="field in reference.fields">{{i18n.field(reference.entity,field.name)}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="entry in data">
+                <td ng-repeat="field in reference.fields">
+                    {{entry.fields[field.name]}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- hotspots-listing -->
+
+<footer>
+    Source: Dataset imported from <a href="http://opendata.paris.fr/">ParisData</a>.
+</footer>

@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Dataset":{
+      "label":"Dataset",
+      "fields":{
+        "name":"Name",
+        "url":"Url"
+      }
+    },
+    "Hotspot":{
+      "label":"Hotspot",
+      "fields":{
+        "name":"Name",
+        "latitude":"Latitude",
+        "longitude":"Longitude",
+        "dataset":"Dataset",
+        "address":"Address",
+        "town":"Town"
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
 self=$(basename $0)
 
 function error {
-    echo $* >&2
+    echo "Error: $*" >&2
 }
 
 function error_exit {
@@ -86,6 +86,9 @@ case "$1" in
         error_exit "Invalid commandline"
 esac
 
+if [ ! -f $HOST_FILE ]; then
+  error_exit "Host not configured ($HOST_FILE not found)"
+fi
 host=$(cat $HOST_FILE)
 
 if [ -z "$host" ]; then

@@ -21,6 +21,8 @@ import com.typesafe.scalalogging.slf4j.Logging
 
 import com.ubeeko.stringconv._
 import com.ubeeko.htalk.bytesconv._
+import com.ubeeko.json._
+import com.ubeeko.jsonconv.JsonConv
 
 // A wifi hotspot entity.
 case class Hotspot(
@@ -38,6 +40,15 @@ case class Hotspot(
 object Hotspot extends Logging {
   def geoHash(latitude: Double, longitude: Double, precision: Int = 12): GeoHash =
     GeoHash.withCharacterPrecision(latitude, longitude, precision)
+
+  implicit object GeoHashJsonConv extends JsonConv[GeoHash] {
+    override protected def fromJson(j: JValue): GeoHash = j match {
+      case JString(s) =>
+        GeoHash.fromGeohashString(s)
+      case _ => throw invalidValue(j)
+    }
+    override protected def toJson(x: GeoHash): JValue = JString(x.toBase32)
+  }
 
   implicit object GeoHashStringConv extends StringConv[GeoHash] {
     def fromString(s: String): GeoHash = GeoHash.fromGeohashString(s)
