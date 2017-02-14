@@ -21,7 +21,7 @@ elif [ ! -f "$datafile" ]; then
 fi
 
 if [ -z "$server" ]; then
-  server="http://localhost:18090"
+  server="http://localhost:30100"
 fi
 
 "$REST_SH" $server
